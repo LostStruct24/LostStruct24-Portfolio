@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LostStruct24-Portfolio/static/css/main.bb8e1912.chunk.css",
+    "main.css": "/LostStruct24-Portfolio/static/css/main.54cb91e5.chunk.css",
     "main.js": "/LostStruct24-Portfolio/static/js/main.2908bd28.chunk.js",
     "main.js.map": "/LostStruct24-Portfolio/static/js/main.2908bd28.chunk.js.map",
     "runtime-main.js": "/LostStruct24-Portfolio/static/js/runtime-main.201180ef.js",
@@ -10,7 +10,7 @@
     "static/js/3.49be8cfb.chunk.js": "/LostStruct24-Portfolio/static/js/3.49be8cfb.chunk.js",
     "static/js/3.49be8cfb.chunk.js.map": "/LostStruct24-Portfolio/static/js/3.49be8cfb.chunk.js.map",
     "index.html": "/LostStruct24-Portfolio/index.html",
-    "static/css/main.bb8e1912.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.bb8e1912.chunk.css.map",
+    "static/css/main.54cb91e5.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.54cb91e5.chunk.css.map",
     "static/js/2.181a04c0.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.181a04c0.chunk.js.LICENSE.txt",
     "static/media/Burger.5ff3c3eb.png": "/LostStruct24-Portfolio/static/media/Burger.5ff3c3eb.png",
     "static/media/ChatApp.f6fa90dc.png": "/LostStruct24-Portfolio/static/media/ChatApp.f6fa90dc.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.201180ef.js",
     "static/js/2.181a04c0.chunk.js",
-    "static/css/main.bb8e1912.chunk.css",
+    "static/css/main.54cb91e5.chunk.css",
     "static/js/main.2908bd28.chunk.js"
   ]
 }
