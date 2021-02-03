@@ -13,7 +13,7 @@ class App extends Component {
             <title>LostStruct24 | Portfolio</title>
           </Helmet> 
           <Navbar />
-            <Route exact path='/LostStruct24-Portfolio' component={About} />
+            <Route exact path='/' component={About} />
             <Route exact path='/Skills' component={Skills} />
             <Route exact path='/Projects' component={Projects} />
             <Route exact path='/Contact' component={Contact} />
