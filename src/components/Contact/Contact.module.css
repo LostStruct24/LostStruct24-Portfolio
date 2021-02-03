@@ -1,0 +1,32 @@
+.Contact h1 {
+    font-size: 40px;
+    margin-top: 6%;
+    margin-bottom: 10%;  
+}
+  
+.Contact a img:hover {
+    opacity: 0.7;
+}
+
+.link {
+    margin-bottom: 12%;
+    align-items: center;
+}
+
+.link a {
+    font-size: 50px;
+    color: #54849b;
+    text-shadow: 0 2px rgb(109, 173, 136);
+}
+  
+@media (max-width: 770px) {
+    .Contact h1 {
+        margin-top: 30%;
+        margin-bottom: 20%;
+        font-size: 25px;
+    }
+
+    .link a {
+        font-size: 25px;
+    }
+}

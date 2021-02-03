@@ -1,0 +1,281 @@
+.Projects img {
+    border-radius: 10%;
+    display: flex;
+    justify-content: flex-end;
+    transition: all 1s;
+}
+  
+.Projects img:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+}  
+  
+.Projects h1 {
+    font-size: 40px;
+    margin-top: 6%;
+    margin-bottom: 3%;  
+}
+  
+.Projects p {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10%;
+}
+
+.Covid19 {
+    margin-top: 10%;
+}
+
+.Covid19 img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    float: left;
+    height: 380px;
+    width: 480px;
+}
+  
+.Covid19 h1 {
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+  
+.Covid19 p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.ChatApp {
+    margin-top: 10%;
+}
+
+.ChatApp img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    float: left;
+    height: 310px;
+    width: 480px;
+}
+  
+.ChatApp h1 {
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+  
+.ChatApp p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+.RoboFriends {
+    margin-top: 10%;
+}
+
+.RoboFriends img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    float: left;
+    height: 350px;
+    width: 480px;
+}
+  
+.RoboFriends h1 {
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+  
+.RoboFriends p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+  
+.ToDoList {
+    margin-top: 10%;
+}
+
+.ToDoList img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    float: left;
+    height: 290px;
+    width: 490px;
+}
+  
+.ToDoList h1 {
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+  
+.ToDoList p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.BurgerBuilder {
+    margin-top: 10%;
+}
+
+.BurgerBuilder img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    float: left;
+    height: 280px;
+    width: 490px;
+}
+  
+.BurgerBuilder h1 {
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+  
+.BurgerBuilder p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+  
+.Projects button {
+    margin-top: 5%;
+    padding: 10px 24px;
+    background-color:  rgb(139, 176, 219);
+    border-radius: 50%;
+    transition-duration: 0.4s;
+}
+  
+.Projects button:hover {
+    background-color: rgb(158, 204, 231);
+    color: rgb(124, 152, 189);
+}
+
+.Projects button a {
+    color:rgb(68, 92, 119);
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+}
+
+.github {
+    margin-bottom: 5%;
+}
+  
+
+@media (max-width: 770px) {
+    .Projects h1 {
+        font-size: 25px;
+        margin-top: 30%;
+        margin-bottom: 6%;  
+    }
+    
+    .Projects p {
+        font-size: 18px;
+    }
+
+    .Projects button {
+        padding: 8px 12px;
+    }
+
+    .Projects button a {
+        font-size: 10px;
+    }
+
+    .Covid19 {
+        margin-top: 2px;
+    }
+
+    .Covid19 img {
+        margin-left: 2%;
+        height: 130px;
+        width: 180px;
+    }
+
+    .Covid19 h1 {
+        font-size: 15px;
+    }
+
+    .Covid19 p {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-right: 2%;    
+    }
+
+    .RoboFriends {
+        margin-top: 2px;
+    }
+
+    .RoboFriends img {
+        margin-left: 2%;
+        height: 130px;
+        width: 180px;    
+    }
+
+    .RoboFriends h1 {
+        font-size: 15px;
+    }
+
+    .RoboFriends p {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-right: 2%;    
+    }
+
+    .ToDoList {
+        margin-top: 2px;
+    }
+
+    .ToDoList img {
+        margin-left: 2%;
+        height: 130px;
+        width: 180px;    
+    }
+
+    .ToDoList h1 {
+        font-size: 15px;
+    }
+
+    .ToDoList p {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-right: 2%;    
+    }
+
+    .BurgerBuilder img {
+        margin-left: 2%;
+        height: 100px;
+        width: 180px;
+    }
+
+    .BurgerBuilder h1 {
+        font-size: 15px;
+    }
+
+    .BurgerBuilder p {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-right: 2%;    
+    }
+}

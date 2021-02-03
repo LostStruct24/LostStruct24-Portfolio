@@ -1,0 +1,48 @@
+.Navbar {
+    background: rgba(204, 219, 228, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .Navbar ul {
+    list-style: none;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-align: right;
+  }
+  
+  .Navbar ul li {
+    font-size: 15px;
+    padding-right: 20px;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .Navbar ul li a {
+    color: rgb(98, 140, 156);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color .3s;
+  }
+  
+  .Navbar ul li a:hover {
+    color: rgb(111, 158, 202);
+  }
+
+  
+
+@media (max-width: 770px) {
+    .Navbar ul {
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 3px;      
+    }
+
+    .Navbar ul li {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
