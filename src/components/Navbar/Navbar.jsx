@@ -8,7 +8,7 @@ class Navbar extends Component {
         return (
             <div className={styles.Navbar}>
                 <ul>
-                    <li><Link to="/">About</Link></li>
+                    <li><Link to="/LostStruct24Portfolio ">About</Link></li>
                     <li><Link to="/Skills">Skills and Experience</Link></li>
                     <li><Link to="/Projects">Projects</Link></li>
                     <li><Link to="/Contact">Contact</Link></li>
