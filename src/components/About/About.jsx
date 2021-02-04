@@ -18,7 +18,7 @@ const About = () => {
                 </div>
                 </div>
             </div>
-            <h2>• Designer & front-end web developer •</h2>
+            <h2>• Front-end web developer & designer •</h2>
             <a href="https://github.com/LostStruct24"
                target="_blank"
                rel="noreferrer" >

@@ -13,7 +13,7 @@
   }
   
   .Navbar ul li {
-    font-size: 15px;
+    font-size: 17px;
     padding-right: 20px;
     padding-left: 0;
     padding-top: 10px;
@@ -22,7 +22,7 @@
   }
   
   .Navbar ul li a {
-    color: rgb(98, 140, 156);
+    color: rgb(66, 100, 114);
     text-decoration: none;
     cursor: pointer;
     transition: color .3s;
