@@ -9,9 +9,9 @@ class Navbar extends Component {
             <div className={styles.Navbar}>
                 <ul>
                     <li><Link to="/LostStruct24-Portfolio">About</Link></li>
-                    <li><Link to="/Skills">Skills and Experience</Link></li>
-                    <li><Link to="/Projects">Projects</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
+                    <li><Link to="/LostStruct24-Portfolio/Skills">Skills and Experience</Link></li>
+                    <li><Link to="/LostStruct24-Portfolio/Projects">Projects</Link></li>
+                    <li><Link to="/LostStruct24-Portfolio/Contact">Contact</Link></li>
                 </ul>
             </div>
         );

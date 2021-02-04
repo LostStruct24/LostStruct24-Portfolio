@@ -14,9 +14,9 @@ class App extends Component {
           </Helmet> 
           <Navbar />
             <Route exact path='/LostStruct24-Portfolio' component={About} />
-            <Route exact path='/Skills' component={Skills} />
-            <Route exact path='/Projects' component={Projects} />
-            <Route exact path='/Contact' component={Contact} />
+            <Route exact path='/LostStruct24-Portfolio/Skills' component={Skills} />
+            <Route exact path='/LostStruct24-Portfolio/Projects' component={Projects} />
+            <Route exact path='/LostStruct24-Portfolio/Contact' component={Contact} />
           <Footer />
         </div>
       </BrowserRouter>
