@@ -14,7 +14,7 @@ const Projects = () => {
             <div className={styles.Covid19}>
                 <img src={Covid19Tracker} alt="Covid-19"></img>
                 <h1>Covid-19 Tracker</h1>
-                <p>Covid-19 Tracker Application Made with ReactJs.<br /><button><a href="https://github.com/LostStruct24/Covid-19-Tracker" target="_blank" rel="noreferrer">Repo</a></button></p>
+                <p>Covid-19 Tracker Application Made with ReactJs.<br /><button><a href="https://github.com/LostStruct24/Covid19-Tracker" target="_blank" rel="noreferrer">Repo</a></button></p>
             </div>
             <div className={styles.ChatApp}>
                 <img src={ChatApp} alt="Chat-App"></img>
