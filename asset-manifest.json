@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LostStruct24-Portfolio/static/css/main.586a5d5a.chunk.css",
-    "main.js": "/LostStruct24-Portfolio/static/js/main.60670f55.chunk.js",
-    "main.js.map": "/LostStruct24-Portfolio/static/js/main.60670f55.chunk.js.map",
+    "main.css": "/LostStruct24-Portfolio/static/css/main.aa083fd8.chunk.css",
+    "main.js": "/LostStruct24-Portfolio/static/js/main.8e01cffe.chunk.js",
+    "main.js.map": "/LostStruct24-Portfolio/static/js/main.8e01cffe.chunk.js.map",
     "runtime-main.js": "/LostStruct24-Portfolio/static/js/runtime-main.201180ef.js",
     "runtime-main.js.map": "/LostStruct24-Portfolio/static/js/runtime-main.201180ef.js.map",
     "static/js/2.181a04c0.chunk.js": "/LostStruct24-Portfolio/static/js/2.181a04c0.chunk.js",
@@ -10,20 +10,20 @@
     "static/js/3.49be8cfb.chunk.js": "/LostStruct24-Portfolio/static/js/3.49be8cfb.chunk.js",
     "static/js/3.49be8cfb.chunk.js.map": "/LostStruct24-Portfolio/static/js/3.49be8cfb.chunk.js.map",
     "index.html": "/LostStruct24-Portfolio/index.html",
-    "static/css/main.586a5d5a.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.586a5d5a.chunk.css.map",
+    "static/css/main.aa083fd8.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.aa083fd8.chunk.css.map",
     "static/js/2.181a04c0.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.181a04c0.chunk.js.LICENSE.txt",
     "static/media/Burger.5ff3c3eb.png": "/LostStruct24-Portfolio/static/media/Burger.5ff3c3eb.png",
     "static/media/ChatApp.f6fa90dc.png": "/LostStruct24-Portfolio/static/media/ChatApp.f6fa90dc.png",
     "static/media/Covid19Tracker.43e73511.png": "/LostStruct24-Portfolio/static/media/Covid19Tracker.43e73511.png",
     "static/media/Github.e54543b4.png": "/LostStruct24-Portfolio/static/media/Github.e54543b4.png",
     "static/media/Mail.ac863c4a.png": "/LostStruct24-Portfolio/static/media/Mail.ac863c4a.png",
-    "static/media/RoboFriends.8a29bc0d.png": "/LostStruct24-Portfolio/static/media/RoboFriends.8a29bc0d.png",
+    "static/media/RoboFriends.3b2c123f.png": "/LostStruct24-Portfolio/static/media/RoboFriends.3b2c123f.png",
     "static/media/ToDoList.9bd73336.png": "/LostStruct24-Portfolio/static/media/ToDoList.9bd73336.png"
   },
   "entrypoints": [
     "static/js/runtime-main.201180ef.js",
     "static/js/2.181a04c0.chunk.js",
-    "static/css/main.586a5d5a.chunk.css",
-    "static/js/main.60670f55.chunk.js"
+    "static/css/main.aa083fd8.chunk.css",
+    "static/js/main.8e01cffe.chunk.js"
   ]
 }
