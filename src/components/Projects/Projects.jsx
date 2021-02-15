@@ -1,4 +1,6 @@
 import React from 'react';
+import NeutrinoVPN from '../../assets/images/NeutrinoVPN.png';
+import PizzaRestaurant from '../../assets/images/Pizza.jpg';
 import Covid19Tracker from '../../assets/images/Covid19Tracker.png';
 import RoboFriends from '../../assets/images/RoboFriends.png';
 import ToDoList from '../../assets/images/ToDoList.png';
@@ -11,27 +13,38 @@ const Projects = () => {
         <div className={styles.Projects}>
             <h1>Projects 💻</h1>
             <p>• Web Projects I've Built •</p>
+            <div className={styles.NeutrinoVPN}>
+                <a href="https://loststruct24.github.io/NeutrinoVPN/" target="_blank" rel="noreferrer"><img src={NeutrinoVPN} alt="NeutrinoVPN"></img></a>
+                <h1>NeutrinoVPN</h1>
+                <p> VPN website made with ReactJs & styled components.<br />
+                <button><a href="https://github.com/LostStruct24/NeutrinoVPN" target="_blank" rel="noreferrer">Repo</a></button>
+                </p>
+            </div>
+            <div className={styles.PizzaRestaurant}>
+                <a href="https://loststruct24.github.io/PizzaRestaurant/" target="_blank" rel="noreferrer"><img src={PizzaRestaurant} alt="PizzaRestaurant"></img></a>
+                <h1>Pizza Restaurant</h1>
+                <p>Responsive Ecommerce React website using styled components.<br />
+                <button><a href="https://github.com/LostStruct24/PizzaRestaurant" target="_blank" rel="noreferrer">Repo</a></button>
+                </p>
+            </div>
             <div className={styles.Covid19}>
-                <img src={Covid19Tracker} alt="Covid-19"></img>
+                <a href="https://loststruct24.github.io/Covid19-Tracker/" target="_blank" rel="noreferrer"><img src={Covid19Tracker} alt="Covid-19"></img></a>
                 <h1>Covid-19 Tracker</h1>
                 <p>Covid-19 Tracker Application Made with ReactJs.<br />
-                <button><a href="https://github.com/LostStruct24/Covid19-Tracker" target="_blank" rel="noreferrer">Repo</a></button> 
-                <button><a href="https://loststruct24.github.io/Covid19-Tracker/" target="_blank" rel="noreferrer">Preview</a></button>
+                <button><a href="https://github.com/LostStruct24/Covid19-Tracker" target="_blank" rel="noreferrer">Repo</a></button>
                 </p>
             </div>
             <div className={styles.ChatApp}>
-                <img src={ChatApp} alt="Chat-App"></img>
+                <a href="https://loststruct24.github.io/ChatApp/" target="_blank" rel="noreferrer"><img src={ChatApp} alt="Chat-App"></img></a>
                 <h1>Chat App</h1>
                 <p>Super chat app made with ReactJS and Firebase.<br /><button><a href="https://github.com/LostStruct24/ChatApp" target="_blank" rel="noreferrer">Repo</a></button>
-                <button><a href="https://loststruct24.github.io/ChatApp/" target="_blank" rel="noreferrer">Preview</a></button>
                 </p>
             </div>
             <div className={styles.RoboFriends}>
-                <img src={RoboFriends} alt="RoboFriends"></img>
+                <a href="https://loststruct24.github.io/RoboFriends/" target="_blank" rel="noreferrer"><img src={RoboFriends} alt="RoboFriends"></img></a>
                 <h1>RoboFriends</h1>
                 <p>React app that searches through an API of random robots.<br/> It's fully responsive and functional in different screen sizes.<br />
                 <button><a href="https://github.com/LostStruct24/RoboFriends" target="_blank" rel="noreferrer">Repo</a></button>
-                <button><a href="https://loststruct24.github.io/RoboFriends/" target="_blank" rel="noreferrer">Preview</a></button>
                 </p>
             </div>
             <div className={styles.ToDoList}>

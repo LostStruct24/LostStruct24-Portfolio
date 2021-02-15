@@ -1,5 +1,5 @@
 .Navbar {
-    background: rgba(204, 219, 228, 0.5);
+    background:rgb(75, 113, 129);
     position: fixed;
     top: 0;
     width: 100%;
@@ -7,8 +7,8 @@
   
   .Navbar ul {
     list-style: none;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     text-align: left;
   }
   
@@ -22,14 +22,14 @@
   }
   
   .Navbar ul li a {
-    color: rgb(66, 100, 114);
+    color: rgba(197, 232, 255, 0.685);
     text-decoration: none;
     cursor: pointer;
     transition: color .3s;
   }
   
   .Navbar ul li a:hover {
-    color: rgb(111, 158, 202);
+    color: rgb(126, 193, 255);
   }
 
   

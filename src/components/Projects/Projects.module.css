@@ -22,6 +22,58 @@
     margin-top: 10%;
 }
 
+.NeutrinoVPN {
+    margin-top: 10%;
+}
+
+.NeutrinoVPN img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    float: left;
+    height: 280px;
+    width: 480px;
+}
+  
+.NeutrinoVPN h1 {
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+  
+.NeutrinoVPN p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.PizzaRestaurant {
+    margin-top: 10%;
+}
+
+.PizzaRestaurant img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    float: left;
+    height: 300px;
+    width: 480px;
+}
+  
+.PizzaRestaurant h1 {
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+  
+.PizzaRestaurant p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
 .Covid19 {
     margin-top: 10%;
 }
@@ -198,6 +250,48 @@
 
     .Projects button a {
         font-size: 10px;
+    }
+
+    .NeutrinoVPN {
+        margin-top: 2px;
+    }
+
+    .NeutrinoVPN img {
+        margin-left: 2%;
+        height: 130px;
+        width: 180px;
+    }
+
+    .NeutrinoVPN h1 {
+        font-size: 15px;
+    }
+
+    .NeutrinoVPN p {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-right: 2%;    
+    }
+
+    .PizzaRestaurant {
+        margin-top: 2px;
+    }
+
+    .PizzaRestaurant img {
+        margin-left: 2%;
+        height: 130px;
+        width: 180px;
+    }
+
+    .PizzaRestaurant h1 {
+        font-size: 15px;
+    }
+
+    .PizzaRestaurant p {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-right: 2%;    
     }
 
     .Covid19 {
