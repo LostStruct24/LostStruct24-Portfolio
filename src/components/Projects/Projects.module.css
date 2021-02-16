@@ -1,5 +1,5 @@
 .Projects img {
-    border-radius: 10%;
+    border-radius: 5%;
     display: flex;
     justify-content: flex-end;
     transition: all 1s;
@@ -8,22 +8,16 @@
 .Projects img:hover {
     opacity: 0.5;
     transform: scale(1.1);
-}  
+} 
   
 .Projects h1 {
     font-size: 40px;
     margin-top: 6%;
-    margin-bottom: 3%;  
-}
-  
-.Projects p {
-    font-size: 25px;
-    margin-bottom: 10px;
-    margin-top: 10%;
 }
 
 .NeutrinoVPN {
-    margin-top: 10%;
+    margin-top: 5%;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .NeutrinoVPN img {
@@ -32,155 +26,160 @@
     float: left;
     height: 280px;
     width: 480px;
+    font-size: 25px;
+    margin-bottom: 5%;
 }
-  
+
 .NeutrinoVPN h1 {
     font-size: 25px;
     margin-bottom: 5%;
 }
-  
+
 .NeutrinoVPN p {
     font-size: 20px;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20%;
+    margin-top: 10px;
     margin-right: 5%;
     margin-left: 5%;
 }
 
 .PizzaRestaurant {
-    margin-top: 10%;
+    margin-top: 5%;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .PizzaRestaurant img {
     margin-left: 5%;
     margin-bottom: 5%;
     float: left;
-    height: 300px;
+    height: 280px;
     width: 480px;
+    font-size: 25px;
+    margin-bottom: 5%;
 }
-  
+
 .PizzaRestaurant h1 {
     font-size: 25px;
     margin-bottom: 5%;
 }
-  
+
 .PizzaRestaurant p {
     font-size: 20px;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20%;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-.Covid19 {
-    margin-top: 10%;
-}
-
-.Covid19 img {
-    margin-left: 5%;
-    margin-bottom: 5%;
-    float: left;
-    height: 380px;
-    width: 480px;
-}
-  
-.Covid19 h1 {
-    font-size: 25px;
-    margin-bottom: 5%;
-}
-  
-.Covid19 p {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20%;
+    margin-top: 10px;
     margin-right: 5%;
     margin-left: 5%;
 }
 
 .ChatApp {
-    margin-top: 10%;
+    margin-top: 5%;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .ChatApp img {
     margin-left: 5%;
     margin-bottom: 5%;
     float: left;
-    height: 310px;
+    height: 280px;
     width: 480px;
-}
-  
-.ChatApp h1 {
     font-size: 25px;
     margin-bottom: 5%;
 }
-  
-.ChatApp p {
+
+.Covid19 h1 {
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.Covid19 p {
     font-size: 20px;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20%;
+    margin-top: 10px;
     margin-right: 5%;
     margin-left: 5%;
 }
 
+.Covid19 {
+    margin-top: 5%;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Covid19 img {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    float: left;
+    height: 280px;
+    width: 480px;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.ChatApp h1 {
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.ChatApp p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
 
 .RoboFriends {
-    margin-top: 10%;
+    margin-top: 5%;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .RoboFriends img {
     margin-left: 5%;
     margin-bottom: 5%;
     float: left;
-    height: 350px;
+    height: 280px;
     width: 480px;
+    font-size: 25px;
+    margin-bottom: 5%;
 }
-  
+
 .RoboFriends h1 {
     font-size: 25px;
     margin-bottom: 5%;
 }
-  
+
 .RoboFriends p {
     font-size: 20px;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20%;
+    margin-top: 10px;
     margin-right: 5%;
     margin-left: 5%;
 }
-  
+
 .ToDoList {
-    margin-top: 10%;
+    margin-top: 5%;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .ToDoList img {
     margin-left: 5%;
     margin-bottom: 5%;
     float: left;
-    height: 290px;
-    width: 490px;
+    height: 280px;
+    width: 480px;
+    font-size: 25px;
+    margin-bottom: 5%;
 }
-  
+
 .ToDoList h1 {
     font-size: 25px;
     margin-bottom: 5%;
 }
-  
+
 .ToDoList p {
     font-size: 20px;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 20%;
+    margin-top: 10px;
     margin-right: 5%;
     margin-left: 5%;
 }
 
 .BurgerBuilder {
-    margin-top: 10%;
+    margin-top: 5%;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .BurgerBuilder img {
@@ -188,30 +187,30 @@
     margin-bottom: 5%;
     float: left;
     height: 280px;
-    width: 490px;
+    width: 480px;
+    font-size: 25px;
+    margin-bottom: 5%;
 }
-  
+
 .BurgerBuilder h1 {
     font-size: 25px;
     margin-bottom: 5%;
 }
-  
+
 .BurgerBuilder p {
     font-size: 20px;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15%;
+    margin-top: 10px;
     margin-right: 5%;
     margin-left: 5%;
 }
-  
+
 .Projects button {
     margin-top: 5%;
-    margin-left: 5%;
     padding: 10px 24px;
     background-color:  rgb(139, 176, 219);
     border-radius: 50%;
     transition-duration: 0.4s;
+    margin-bottom: 8%;
 }
   
 .Projects button:hover {

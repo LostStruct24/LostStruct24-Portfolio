@@ -12,7 +12,6 @@ const Projects = () => {
     return (
         <div className={styles.Projects}>
             <h1>Projects 💻</h1>
-            <p>• Web Projects I've Built •</p>
             <div className={styles.NeutrinoVPN}>
                 <a href="https://loststruct24.github.io/NeutrinoVPN/" target="_blank" rel="noreferrer"><img src={NeutrinoVPN} alt="NeutrinoVPN"></img></a>
                 <h1>NeutrinoVPN</h1>
@@ -23,7 +22,7 @@ const Projects = () => {
             <div className={styles.PizzaRestaurant}>
                 <a href="https://loststruct24.github.io/PizzaRestaurant/" target="_blank" rel="noreferrer"><img src={PizzaRestaurant} alt="PizzaRestaurant"></img></a>
                 <h1>Pizza Restaurant</h1>
-                <p>Responsive Ecommerce React website using styled components.<br />
+                <p>Responsive Ecommerce React website using styled components. <br />
                 <button><a href="https://github.com/LostStruct24/PizzaRestaurant" target="_blank" rel="noreferrer">Repo</a></button>
                 </p>
             </div>
