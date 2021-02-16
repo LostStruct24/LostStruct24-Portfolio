@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LostStruct24-Portfolio/static/css/main.c17aa111.chunk.css",
-    "main.js": "/LostStruct24-Portfolio/static/js/main.7391271d.chunk.js",
-    "main.js.map": "/LostStruct24-Portfolio/static/js/main.7391271d.chunk.js.map",
+    "main.css": "/LostStruct24-Portfolio/static/css/main.7a6ae063.chunk.css",
+    "main.js": "/LostStruct24-Portfolio/static/js/main.840694b3.chunk.js",
+    "main.js.map": "/LostStruct24-Portfolio/static/js/main.840694b3.chunk.js.map",
     "runtime-main.js": "/LostStruct24-Portfolio/static/js/runtime-main.201180ef.js",
     "runtime-main.js.map": "/LostStruct24-Portfolio/static/js/runtime-main.201180ef.js.map",
     "static/js/2.8c096883.chunk.js": "/LostStruct24-Portfolio/static/js/2.8c096883.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.49be8cfb.chunk.js": "/LostStruct24-Portfolio/static/js/3.49be8cfb.chunk.js",
     "static/js/3.49be8cfb.chunk.js.map": "/LostStruct24-Portfolio/static/js/3.49be8cfb.chunk.js.map",
     "index.html": "/LostStruct24-Portfolio/index.html",
-    "static/css/main.c17aa111.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.c17aa111.chunk.css.map",
+    "static/css/main.7a6ae063.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.7a6ae063.chunk.css.map",
     "static/js/2.8c096883.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.8c096883.chunk.js.LICENSE.txt",
     "static/media/Burger.5ff3c3eb.png": "/LostStruct24-Portfolio/static/media/Burger.5ff3c3eb.png",
     "static/media/ChatApp.f6fa90dc.png": "/LostStruct24-Portfolio/static/media/ChatApp.f6fa90dc.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.201180ef.js",
     "static/js/2.8c096883.chunk.js",
-    "static/css/main.c17aa111.chunk.css",
-    "static/js/main.7391271d.chunk.js"
+    "static/css/main.7a6ae063.chunk.css",
+    "static/js/main.840694b3.chunk.js"
   ]
 }
