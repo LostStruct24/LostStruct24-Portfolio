@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import { BrowserRouter, Route } from 'react-router-dom';
 import './App.module.css';
 import { Navbar, About, Skills, Projects, Contact, Footer } from './components';
+
  
 class App extends Component {
   render () {

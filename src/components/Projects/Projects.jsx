@@ -11,57 +11,59 @@ import styles from './Projects.module.css';
 const Projects = () => {
     return (
         <div className={styles.Projects}>
-            <h1>Projects 💻</h1>
+            <h1 className={styles.ProjectsH1}>Projects 💻</h1>
+            <div className={styles.Border}></div>
             <div className={styles.NeutrinoVPN}>
                 <a href="https://loststruct24.github.io/NeutrinoVPN/" target="_blank" rel="noreferrer"><img src={NeutrinoVPN} alt="NeutrinoVPN"></img></a>
                 <h1>NeutrinoVPN</h1>
-                <p> VPN website made with ReactJs & styled components.<br />
+                <p>VPN website made with ReactJs & styled components.</p>
                 <button><a href="https://github.com/LostStruct24/NeutrinoVPN" target="_blank" rel="noreferrer">Repo</a></button>
-                </p>
             </div>
+            <div className={styles.Border}></div>
             <div className={styles.PizzaRestaurant}>
                 <a href="https://loststruct24.github.io/PizzaRestaurant/" target="_blank" rel="noreferrer"><img src={PizzaRestaurant} alt="PizzaRestaurant"></img></a>
                 <h1>Pizza Restaurant</h1>
-                <p>Responsive Ecommerce React website using styled components. <br />
+                <p>Responsive Ecommerce React website using styled components.</p>
                 <button><a href="https://github.com/LostStruct24/PizzaRestaurant" target="_blank" rel="noreferrer">Repo</a></button>
-                </p>
             </div>
+            <div className={styles.Border}></div>
             <div className={styles.Covid19}>
                 <a href="https://loststruct24.github.io/Covid19-Tracker/" target="_blank" rel="noreferrer"><img src={Covid19Tracker} alt="Covid-19"></img></a>
                 <h1>Covid-19 Tracker</h1>
-                <p>Covid-19 Tracker Application Made with ReactJs.<br />
+                <p>Covid-19 Tracker Application Made with ReactJs.</p>
                 <button><a href="https://github.com/LostStruct24/Covid19-Tracker" target="_blank" rel="noreferrer">Repo</a></button>
-                </p>
             </div>
+            <div className={styles.Border}></div>
             <div className={styles.ChatApp}>
                 <a href="https://loststruct24.github.io/ChatApp/" target="_blank" rel="noreferrer"><img src={ChatApp} alt="Chat-App"></img></a>
                 <h1>Chat App</h1>
-                <p>Super chat app made with ReactJS and Firebase.<br /><button><a href="https://github.com/LostStruct24/ChatApp" target="_blank" rel="noreferrer">Repo</a></button>
-                </p>
+                <p>Super chat app made with ReactJS and Firebase.</p>
+                <button><a href="https://github.com/LostStruct24/ChatApp" target="_blank" rel="noreferrer">Repo</a></button>
             </div>
+            <div className={styles.Border}></div>
             <div className={styles.RoboFriends}>
                 <a href="https://loststruct24.github.io/RoboFriends/" target="_blank" rel="noreferrer"><img src={RoboFriends} alt="RoboFriends"></img></a>
                 <h1>RoboFriends</h1>
-                <p>React app that searches through an API of random robots.<br/> It's fully responsive and functional in different screen sizes.<br />
+                <p>React app that searches through an API of random robots.<br/> It's fully responsive and functional in different screen sizes.</p>
                 <button><a href="https://github.com/LostStruct24/RoboFriends" target="_blank" rel="noreferrer">Repo</a></button>
-                </p>
             </div>
+            <div className={styles.Border}></div>
             <div className={styles.ToDoList}>
                 <img src={ToDoList} alt="ToDoList"></img>
                 <h1>ToDoList</h1>
-                <p>A simple to do list app built in react.<br />
+                <p>A simple to do list app built in react.</p>
                 <button><a href="https://github.com/LostStruct24/ToDoList" target="_blank" rel="noreferrer">Repo</a></button>
-                </p>
             </div>
+            <div className={styles.Border}></div>
             <div className={styles.BurgerBuilder}>
                 <img src={BurgerBuilder} alt="BurgerApp"></img>
                 <h1>BurgerApp</h1>
-                <p>A Burger builder App built using ReactJs and ReduxJs.<br />
+                <p>A Burger builder App built using ReactJs and ReduxJs.</p>
                 <button><a href="https://github.com/LostStruct24/BurgerApp" target="_blank" rel="noreferrer">Repo</a></button>
-                </p>
             </div>
+            <div className={styles.Border}></div>
             <div className={styles.github}>
-                <p><br /><button><a href="https://github.com/LostStruct24" target="_blank" rel="noreferrer">More Projects</a></button></p>
+                <button><a href="https://github.com/LostStruct24" target="_blank" rel="noreferrer">More Projects</a></button>
             </div>
         </div>
     );

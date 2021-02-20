@@ -155,7 +155,7 @@
 }
 
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .About h1 {
       font-size: 30px;
       margin-top: 30%;
