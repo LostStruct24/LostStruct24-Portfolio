@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/LostStruct24-Portfolio/static/css/main.c8d1e25d.chunk.css",
-    "main.js": "/LostStruct24-Portfolio/static/js/main.840694b3.chunk.js",
-    "main.js.map": "/LostStruct24-Portfolio/static/js/main.840694b3.chunk.js.map",
+    "main.css": "/LostStruct24-Portfolio/static/css/main.ca3a2daf.chunk.css",
+    "main.js": "/LostStruct24-Portfolio/static/js/main.a799b6e6.chunk.js",
+    "main.js.map": "/LostStruct24-Portfolio/static/js/main.a799b6e6.chunk.js.map",
     "runtime-main.js": "/LostStruct24-Portfolio/static/js/runtime-main.201180ef.js",
     "runtime-main.js.map": "/LostStruct24-Portfolio/static/js/runtime-main.201180ef.js.map",
-    "static/js/2.8c096883.chunk.js": "/LostStruct24-Portfolio/static/js/2.8c096883.chunk.js",
-    "static/js/2.8c096883.chunk.js.map": "/LostStruct24-Portfolio/static/js/2.8c096883.chunk.js.map",
+    "static/js/2.63fb1f22.chunk.js": "/LostStruct24-Portfolio/static/js/2.63fb1f22.chunk.js",
+    "static/js/2.63fb1f22.chunk.js.map": "/LostStruct24-Portfolio/static/js/2.63fb1f22.chunk.js.map",
     "static/js/3.49be8cfb.chunk.js": "/LostStruct24-Portfolio/static/js/3.49be8cfb.chunk.js",
     "static/js/3.49be8cfb.chunk.js.map": "/LostStruct24-Portfolio/static/js/3.49be8cfb.chunk.js.map",
     "index.html": "/LostStruct24-Portfolio/index.html",
-    "static/css/main.c8d1e25d.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.c8d1e25d.chunk.css.map",
-    "static/js/2.8c096883.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.8c096883.chunk.js.LICENSE.txt",
+    "static/css/main.ca3a2daf.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.ca3a2daf.chunk.css.map",
+    "static/js/2.63fb1f22.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.63fb1f22.chunk.js.LICENSE.txt",
     "static/media/Burger.5ff3c3eb.png": "/LostStruct24-Portfolio/static/media/Burger.5ff3c3eb.png",
     "static/media/ChatApp.f6fa90dc.png": "/LostStruct24-Portfolio/static/media/ChatApp.f6fa90dc.png",
     "static/media/Covid19Tracker.43e73511.png": "/LostStruct24-Portfolio/static/media/Covid19Tracker.43e73511.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.201180ef.js",
-    "static/js/2.8c096883.chunk.js",
-    "static/css/main.c8d1e25d.chunk.css",
-    "static/js/main.840694b3.chunk.js"
+    "static/js/2.63fb1f22.chunk.js",
+    "static/css/main.ca3a2daf.chunk.css",
+    "static/js/main.a799b6e6.chunk.js"
   ]
 }
