@@ -1,31 +1,28 @@
 {
   "files": {
-    "main.css": "/LostStruct24-Portfolio/static/css/main.ca3a2daf.chunk.css",
-    "main.js": "/LostStruct24-Portfolio/static/js/main.a799b6e6.chunk.js",
-    "main.js.map": "/LostStruct24-Portfolio/static/js/main.a799b6e6.chunk.js.map",
-    "runtime-main.js": "/LostStruct24-Portfolio/static/js/runtime-main.201180ef.js",
-    "runtime-main.js.map": "/LostStruct24-Portfolio/static/js/runtime-main.201180ef.js.map",
-    "static/js/2.63fb1f22.chunk.js": "/LostStruct24-Portfolio/static/js/2.63fb1f22.chunk.js",
-    "static/js/2.63fb1f22.chunk.js.map": "/LostStruct24-Portfolio/static/js/2.63fb1f22.chunk.js.map",
-    "static/js/3.49be8cfb.chunk.js": "/LostStruct24-Portfolio/static/js/3.49be8cfb.chunk.js",
-    "static/js/3.49be8cfb.chunk.js.map": "/LostStruct24-Portfolio/static/js/3.49be8cfb.chunk.js.map",
+    "main.css": "/LostStruct24-Portfolio/static/css/main.b8cc7539.chunk.css",
+    "main.js": "/LostStruct24-Portfolio/static/js/main.daf4b24f.chunk.js",
+    "main.js.map": "/LostStruct24-Portfolio/static/js/main.daf4b24f.chunk.js.map",
+    "runtime-main.js": "/LostStruct24-Portfolio/static/js/runtime-main.812a7128.js",
+    "runtime-main.js.map": "/LostStruct24-Portfolio/static/js/runtime-main.812a7128.js.map",
+    "static/js/2.eca244aa.chunk.js": "/LostStruct24-Portfolio/static/js/2.eca244aa.chunk.js",
+    "static/js/2.eca244aa.chunk.js.map": "/LostStruct24-Portfolio/static/js/2.eca244aa.chunk.js.map",
     "index.html": "/LostStruct24-Portfolio/index.html",
-    "static/css/main.ca3a2daf.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.ca3a2daf.chunk.css.map",
-    "static/js/2.63fb1f22.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.63fb1f22.chunk.js.LICENSE.txt",
-    "static/media/Burger.5ff3c3eb.png": "/LostStruct24-Portfolio/static/media/Burger.5ff3c3eb.png",
-    "static/media/ChatApp.f6fa90dc.png": "/LostStruct24-Portfolio/static/media/ChatApp.f6fa90dc.png",
-    "static/media/Covid19Tracker.43e73511.png": "/LostStruct24-Portfolio/static/media/Covid19Tracker.43e73511.png",
-    "static/media/Github.e54543b4.png": "/LostStruct24-Portfolio/static/media/Github.e54543b4.png",
-    "static/media/Mail.ac863c4a.png": "/LostStruct24-Portfolio/static/media/Mail.ac863c4a.png",
-    "static/media/NeutrinoVPN.8f9c3060.png": "/LostStruct24-Portfolio/static/media/NeutrinoVPN.8f9c3060.png",
-    "static/media/Pizza.c276a0ff.jpg": "/LostStruct24-Portfolio/static/media/Pizza.c276a0ff.jpg",
-    "static/media/RoboFriends.3b2c123f.png": "/LostStruct24-Portfolio/static/media/RoboFriends.3b2c123f.png",
-    "static/media/ToDoList.9bd73336.png": "/LostStruct24-Portfolio/static/media/ToDoList.9bd73336.png"
+    "static/css/main.b8cc7539.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.b8cc7539.chunk.css.map",
+    "static/js/2.eca244aa.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.eca244aa.chunk.js.LICENSE.txt",
+    "static/media/BMI-Calculator.png": "/LostStruct24-Portfolio/static/media/BMI-Calculator.97f30d67.png",
+    "static/media/Burger.png": "/LostStruct24-Portfolio/static/media/Burger.5ff3c3eb.png",
+    "static/media/ChatApp.png": "/LostStruct24-Portfolio/static/media/ChatApp.f6fa90dc.png",
+    "static/media/Covid19Tracker.png": "/LostStruct24-Portfolio/static/media/Covid19Tracker.43e73511.png",
+    "static/media/NeutrinoVPN.png": "/LostStruct24-Portfolio/static/media/NeutrinoVPN.8f9c3060.png",
+    "static/media/Pizza.jpg": "/LostStruct24-Portfolio/static/media/Pizza.c276a0ff.jpg",
+    "static/media/RoboFriends.png": "/LostStruct24-Portfolio/static/media/RoboFriends.3b2c123f.png",
+    "static/media/ToDoList.png": "/LostStruct24-Portfolio/static/media/ToDoList.9bd73336.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.201180ef.js",
-    "static/js/2.63fb1f22.chunk.js",
-    "static/css/main.ca3a2daf.chunk.css",
-    "static/js/main.a799b6e6.chunk.js"
+    "static/js/runtime-main.812a7128.js",
+    "static/js/2.eca244aa.chunk.js",
+    "static/css/main.b8cc7539.chunk.css",
+    "static/js/main.daf4b24f.chunk.js"
   ]
 }
