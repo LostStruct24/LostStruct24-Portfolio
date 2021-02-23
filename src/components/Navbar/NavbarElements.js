@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
+    background: ${({ scrollNav }) => (scrollNav ? '#bfd4e3' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: #275e75;
+    color: #1e4657;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -39,7 +39,6 @@ export const NavLogo = styled(LinkR)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
-    text-shadow: 0 0.5px rgba(240,245,250, 0.5);
 `;
 
 export const MobileIcon = styled.div`
@@ -74,13 +73,12 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: #275e75;
+    color: #1e4657;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
-    text-shadow: 0 0.5px rgba(240,245,250, 0.2);
     cursor: pointer;
 
     &.active {
@@ -117,6 +115,65 @@ export const NavBtnLink = styled(LinkR)`
         transition: all 0.2 ease-in-out;
         background: #fff;
         color: #275e75;
+    }
+`;
+
+
+
+//Projects Navbar //
+
+export const ProjectsNav = styled.nav`
+    background: #06080a;
+    height: 80px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    @media screen and (max-width: 960px) {
+        transition: 0.8s all ease;
+    }
+`;
+
+export const ProjectsNavLogo = styled(LinkR)`
+    color: #ebf4fa;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    font-weight: bold;
+    text-decoration: none;
+`;
+
+export const ProjectsNavLink = styled(LinkS)`
+    color: #ebf4fa;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 3px solid #275e75;
+    }
+`;
+
+export const ProjectsNavMenu = styled.ul`
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-right: -22px;
+
+    @media screen and (max-width: 768px) {
+        display: none;
     }
 `;
 

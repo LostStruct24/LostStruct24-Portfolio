@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { IconContext } from 'react-icons/lib';
 import { FaBars } from 'react-icons/fa';
-import { Nav, NavbarContainer, NavLogo, NavItem, NavMenu, NavLinks, MobileIcon } from './NavbarElements';
+import { ProjectsNav, NavbarContainer, ProjectsNavLogo, NavItem, ProjectsNavMenu, ProjectsNavLink, MobileIcon } from './NavbarElements';
 import { animateScroll as scroll } from 'react-scroll';
 
 const ProjectsNavbar = ({ toggle }) => {
@@ -26,20 +26,20 @@ const ProjectsNavbar = ({ toggle }) => {
     return (
         <>
             <IconContext.Provider value={{color: '#275e75'}}>
-                <Nav scrollNav={scrollNav}>
+                <ProjectsNav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to="/LostStruct24-Portfolio" onClick={toggleHome}>LostStruct24</NavLogo>
+                        <ProjectsNavLogo to="/LostStruct24-Portfolio" onClick={toggleHome}>LostStruct24</ProjectsNavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
-                    </NavbarContainer>
-                        <NavMenu>
+                        <ProjectsNavMenu>
                             <NavItem>
-                                <NavLinks to="projects" smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                                >Projects 💻</NavLinks>
+                                <ProjectsNavLink to="projects" smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                                >Projects 💻</ProjectsNavLink>
                             </NavItem>
-                        </NavMenu>
-                </Nav>
+                        </ProjectsNavMenu>
+                    </NavbarContainer>
+                </ProjectsNav>
             </IconContext.Provider>
         </>
     )

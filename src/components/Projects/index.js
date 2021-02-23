@@ -1,7 +1,7 @@
 import React from 'react';
-import { ProjectContainer, ProjectWrapper, ProjectRow, Column1, Column2, TextWrapper, Heading, Subtitle, BtnWrap, ImgWrap, Img, ProjectsButton } from './ProjectsElements';
+import { ProjectContainer, ProjectWrapper, ProjectRow, Column1, Column2, TextWrapper, Heading, Subtitle, BtnWrap, ImgWrap, Img, ProjectsButton, TopLine, ImgLink } from './ProjectsElements';
 
-const Projects = ({lightBg, id, imgStart, lightText, headline,  darkText, description, buttonLabel, img, alt, projectsButton }) => {
+const Projects = ({lightBg, id, imgLink, imgStart, lightText, topLine, headline,  darkText, description, buttonLabel, img, alt, projectsButton }) => {
     return (
         <>
             <ProjectContainer lightBg={lightBg} id={id}>
@@ -9,6 +9,7 @@ const Projects = ({lightBg, id, imgStart, lightText, headline,  darkText, descri
                 <ProjectRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper>
+                                <TopLine href={topLine} target="_blank" rel="noreferrer" >{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
@@ -18,7 +19,8 @@ const Projects = ({lightBg, id, imgStart, lightText, headline,  darkText, descri
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt} />
+                            <ImgLink href={imgLink} target="_blank" rel="noreferrer" ><Img src={img} alt={alt} /></ImgLink>
+                                
                             </ImgWrap>
                         </Column2>
                     </ProjectRow>

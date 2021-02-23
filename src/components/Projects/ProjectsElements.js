@@ -112,3 +112,17 @@ export const Img = styled.img`
         cursor: pointer;
     }
 `;
+
+export const TopLine = styled.a`
+    color: #275e75;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    margin-bottom: 16px;
+    text-decoration: none;
+`;
+
+export const ImgLink = styled.a`
+    cursor: pointer;
+`;
