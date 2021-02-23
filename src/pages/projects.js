@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
+import Github from '../components/Github';
 import ProjectsSidebar from '../components/Sidebar/ProjectsSidebar';
 import ProjectsNavbar from '../components/Navbar/ProjectsNavbar';
 import { NeutrinoVPN, PizzaRestaurant, Covid19Tracker, ChatApp, RoboFriends, ToDoList, BurgerApp, BmiCalculator } from '../components/Projects/Data';
@@ -26,6 +27,7 @@ const ProjectsPage = () => {
             <Projects {...ToDoList} />
             <Projects {...BurgerApp} />
             <Projects {...BmiCalculator} />
+            <Github />
             <Footer />
         </>
     )
