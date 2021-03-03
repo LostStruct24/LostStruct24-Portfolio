@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
-    color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#c1d3e0' : '#06080a')};
-
+    color: #EEEDE7;
+    background: ${({lightBg}) => (lightBg ? '#B6E2D3' : '#4b615d')};
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
@@ -25,7 +24,6 @@ export const ProjectRow = styled.div`
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
-
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
     }
@@ -54,8 +52,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? '#c1d3e0' : '#275e75')};
-
+    color: ${({lightText}) => (lightText ? '#E5F2F0' : '#152D2E')};
     @media screen and (max-width: 480px) {
         font-size: 32px;
     }
@@ -66,7 +63,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#06080a' : '#c1d3e0')};
+    color: ${({darkText}) => (darkText ? '#152D2E' : '#E5F2F0')};
 `;
 
 export const BtnWrap = styled.div`
@@ -78,9 +75,9 @@ export const ProjectsButton = styled.a`
     display: flex;
     justify-content: flex-start;
     border-radius: 50px;
-    background: #275e75;
+    background: #647c90;
     padding: 14px 48px;
-    color: #fff;
+    color: #E5F2F0;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
@@ -88,11 +85,11 @@ export const ProjectsButton = styled.a`
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
-
+    
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #275e75;
+        background: #B6E2D3;
+        color: #43616F;
     }
 `;
 
@@ -114,7 +111,7 @@ export const Img = styled.img`
 `;
 
 export const TopLine = styled.a`
-    color: #275e75;
+    color: ${({lightText}) => (lightText ? '#B6E2D3' : '#152D2E')};
     font-size: 17px;
     font-weight: 600;
     line-height: 18px;

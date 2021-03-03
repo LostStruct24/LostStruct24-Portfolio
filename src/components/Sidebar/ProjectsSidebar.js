@@ -10,7 +10,7 @@ const ProjectsSidebar = ({ isOpen, toggle }) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to="projects" onClick={toggle}>
-                        Projects 💻
+                        Projects
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>

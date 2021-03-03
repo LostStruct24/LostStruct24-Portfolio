@@ -6,7 +6,7 @@ export const SkillsContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #010606;
+    background: #364e59;
     
     @media screen and (max-width: 768px) {
         height: 1100px;
@@ -37,7 +37,7 @@ export const SkillsWrapper = styled.div`
 `;
 
 export const SkillsCard = styled.div`
-    background: #fff;
+    background: #EEEDE7;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -57,7 +57,7 @@ export const SkillsCard = styled.div`
 
 export const SkillsH1 = styled.h1`
     font-size: 2.5rem;
-    color: #c1d3e0;
+    color: #B6E2D3;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {
@@ -72,10 +72,11 @@ export const SkillsH1 = styled.h1`
 export const SkillsH2 = styled.h2`
     font-size: 20px;
     margin-bottom: 20px;
-    color: #275e75;
+    color: #43616F;
 `;
 
 export const SkillsP = styled.p`
     font-size: 1rem;
     text-align: center;
+    color: #43616F;
 `;

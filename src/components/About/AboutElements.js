@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-    background: #c1d3e0;
+    background: linear-gradient(to right, rgb(182, 226, 211) 0% ,rgb(165, 194, 212) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +34,9 @@ export const AboutContent = styled.div`
 `;
 
 export const AboutH1 = styled.h1`
-    color: #275e75;
+    color: #3d5966;
     font-size: 48px;
-    text-shadow: 0 2px rgb(109, 155, 173);
+    text-shadow: 0 1px #5D7772;
     text-align: center;
 
     @media screen and (max-width: 768px) {
@@ -54,7 +54,7 @@ export const AboutH1 = styled.h1`
 
 export const AboutP = styled.p`
     margin-top: 24px;
-    color: #346d85;
+    color: #43616F;
     font-size: 24px;
     text-align: center;
     max-width: 600px;

@@ -10,17 +10,17 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to="home" onClick={toggle}>
-                        About 🔍
+                        About
                     </SidebarLink>
                     <SidebarLink to="skills" onClick={toggle}>
-                        Skills and Experience 🎓
+                        Skills and Experience
                     </SidebarLink>
                     <SidebarLink to="contact" onClick={toggle}>
-                        Contact 📧
+                        Contact
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/LostStruct24-Portfolio/projects">Projects 💻</SidebarRoute>
+                    <SidebarRoute to="/LostStruct24-Portfolio/projects">Projects</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

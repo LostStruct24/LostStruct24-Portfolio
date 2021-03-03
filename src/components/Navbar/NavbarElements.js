@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: ${({ scrollNav }) => (scrollNav ? '#bfd4e3' : 'transparent')};
+    background: ${({ scrollNav }) => (scrollNav ? '#5D7772' : '#43616F')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: #1e4657;
+    color: #E5F2F0;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -52,7 +52,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #fff;
+        color: #B6E2D3;
     }
 `;
 
@@ -73,7 +73,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: #1e4657;
+    color: #E5F2F0;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -82,7 +82,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #275e75;
+        border-bottom: 3px solid #EEEDE7;
     }
 `;
 
@@ -97,13 +97,12 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #275e75;
+    background: #637E90;
     display: flex;
     align-items: center;
-
     white-space: nowrap;
     padding: 10px 22px;
-    color: #fff;
+    color: #E5F2F0;
     font-size: 16px;
     outline: none;
     border: none;
@@ -113,8 +112,8 @@ export const NavBtnLink = styled(LinkR)`
 
     &:hover {
         transition: all 0.2 ease-in-out;
-        background: #fff;
-        color: #275e75;
+        background: #E5F2F0;
+        color: #637E90;
     }
 `;
 
@@ -123,7 +122,7 @@ export const NavBtnLink = styled(LinkR)`
 //Projects Navbar //
 
 export const ProjectsNav = styled.nav`
-    background: #06080a;
+    background: #43616F;
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -140,7 +139,7 @@ export const ProjectsNav = styled.nav`
 `;
 
 export const ProjectsNavLogo = styled(LinkR)`
-    color: #ebf4fa;
+    color: #E5F2F0;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -152,7 +151,7 @@ export const ProjectsNavLogo = styled(LinkR)`
 `;
 
 export const ProjectsNavLink = styled(LinkS)`
-    color: #ebf4fa;
+    color: #E5F2F0;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -161,7 +160,7 @@ export const ProjectsNavLink = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #275e75;
+        border-bottom: 3px solid #EEEDE7;
     }
 `;
 

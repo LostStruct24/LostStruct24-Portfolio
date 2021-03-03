@@ -25,7 +25,7 @@ const Navbar = ({ toggle }) => {
 
     return (
         <>
-            <IconContext.Provider value={{color: '#275e75'}}>
+            <IconContext.Provider value={{color: '#B6E2D3'}}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
                         <NavLogo to="/LostStruct24-Portfolio" onClick={toggleHome}>LostStruct24</NavLogo>
@@ -35,19 +35,19 @@ const Navbar = ({ toggle }) => {
                         <NavMenu>
                             <NavItem>
                                 <NavLinks to="home" smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                                >About 🔍</NavLinks>
+                                >About</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="skills" smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                                >Skills and Experience 🎓</NavLinks>
+                                >Skills and Experience</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="contact" smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                                >Contact 📧</NavLinks>
+                                >Contact</NavLinks>
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/LostStruct24-Portfolio/projects">Projects 💻</NavBtnLink>
+                            <NavBtnLink to="/LostStruct24-Portfolio/projects">Projects</NavBtnLink>
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>

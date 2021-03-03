@@ -6,7 +6,7 @@ export const ContactContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #c1d3e0;
+    background: #B6E2D3;
 
     @media screen and (max-width: 768px) {
         height: 1000px;
@@ -26,7 +26,7 @@ export const ContactWrapper = styled.div`
 
 export const ContactH1 = styled.h1`
     font-size: 2.5rem;
-    color: #275e75;
+    color: #3d5966;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {
@@ -41,8 +41,8 @@ export const ContactH1 = styled.h1`
 export const ContactMail = styled.a`
     display: flex;
     justify-content: center;
-    color: #275e75;
+    color: #43616F;
     font-size: 25px;
     align-items: center;
-    text-shadow: 0 0.5px rgb(109, 173, 136);
+    text-shadow: 0 0.5px #5D7772;
 `;

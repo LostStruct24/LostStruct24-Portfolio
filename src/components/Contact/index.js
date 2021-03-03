@@ -4,7 +4,7 @@ import { ContactContainer, ContactH1, ContactWrapper, ContactMail } from './Cont
 const Contact = () => {
     return (
         <ContactContainer id="contact">
-            <ContactH1>Contact Me 📧</ContactH1>
+            <ContactH1>Contact Me</ContactH1>
             <ContactWrapper>
                 <ContactMail href="mailto:loststruct24@gmail.com"
                     target="_blank"

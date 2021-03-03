@@ -6,20 +6,20 @@ import { DiCode } from 'react-icons/di';
 const Services = () => {
     return (
         <SkillsContainer id="skills">
-            <SkillsH1>Skills and Experience 🎓</SkillsH1>
+            <SkillsH1>Skills and Experience</SkillsH1>
             <SkillsWrapper>
                 <SkillsCard>
-                    <DiCode style={{color: '#275e75', height: '50px', width: '50px', marginBottom: '15px' }} />
+                    <DiCode style={{color: '#637E90', height: '50px', width: '50px', marginBottom: '15px' }} />
                     <SkillsH2>Front-End Web Developer</SkillsH2>
                     <SkillsP>HTML<br/>CSS<br/>JavaScript<br/>ReactJS</SkillsP>
                 </SkillsCard>
                 <SkillsCard>
-                    <SiAdobephotoshop style={{color: '#275e75', height: '30px', width: '30px', marginBottom: '15px' }} />
+                    <SiAdobephotoshop style={{color: '#637E90', height: '30px', width: '30px', marginBottom: '15px' }} />
                     <SkillsH2>Designer</SkillsH2>
                     <SkillsP>Photoshop</SkillsP>
                 </SkillsCard>
                 <SkillsCard>
-                    <SiPython style={{color: '#275e75', height: '30px', width: '30px', marginBottom: '15px' }} />
+                    <SiPython style={{color: '#637E90', height: '30px', width: '30px', marginBottom: '15px' }} />
                     <SkillsH2>Other Languages I'm Learning</SkillsH2>
                     <SkillsP>Python</SkillsP>
                 </SkillsCard>

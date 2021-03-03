@@ -17,7 +17,7 @@ const About = () => {
                     <AboutBtn href="//github.com/LostStruct24" 
                     target="_blank" 
                     aria-label="Github" 
-                    rel="noreferrer" ><SiGithub style={{color: '#275e75', height: '40px', width: '40px' }}/></AboutBtn>
+                    rel="noreferrer" ><SiGithub style={{color: '#637E90', height: '40px', width: '40px' }}/></AboutBtn>
                 </AboutBtnWrapper>
             </AboutContent>
         </AboutContainer>
