@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const ProjectContainer = styled.div`
     color: #EEEDE7;
     background: ${({lightBg}) => (lightBg ? '#B6E2D3' : '#4b615d')};
+
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
@@ -24,19 +25,18 @@ export const ProjectRow = styled.div`
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
     }
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-    margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
 `;
@@ -48,11 +48,11 @@ export const TextWrapper = styled.div`
 `;
 
 export const Heading = styled.h1`
-    margin-bottom: 24px;
     font-size: 48px;
-    line-height: 1.1;
+    line-height: 1.5;
     font-weight: 600;
     color: ${({lightText}) => (lightText ? '#E5F2F0' : '#152D2E')};
+
     @media screen and (max-width: 480px) {
         font-size: 32px;
     }

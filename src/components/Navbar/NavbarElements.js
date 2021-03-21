@@ -47,6 +47,8 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
+        margin-top: 20px;
+        margin-right: 20px;
         top: 0;
         right: 0;
         transform: translate(-100, 60%);
@@ -139,7 +141,7 @@ export const ProjectsNav = styled.nav`
 `;
 
 export const ProjectsNavLogo = styled(LinkR)`
-    color: #E5F2F0;
+    color: #e5f2f0;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
