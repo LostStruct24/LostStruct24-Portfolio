@@ -122,9 +122,8 @@ export const NavBtnLink = styled(LinkR)`
 
 
 //Projects Navbar //
-
 export const ProjectsNav = styled.nav`
-    background: #43616F;
+    background: #182d36;
     height: 80px;
     margin-top: -80px;
     display: flex;

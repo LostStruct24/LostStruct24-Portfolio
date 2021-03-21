@@ -92,6 +92,44 @@ export const RoboFriends = {
     projectsButton: "https://github.com/LostStruct24/RoboFriends"
 }
 
+export const BmiCalculator = {
+    id: 'projects',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'https://loststruct24.github.io/BMI-calculator/',
+    headline: 'BMI Calculator',
+    description: "Body mass index calculator made with JavaScript",
+    buttonLabel: 'Repo',
+    imgStart: true,
+    img: require('../../images/BMI-Calculator.png').default,
+    imgLink: 'https://loststruct24.github.io/BMI-calculator/',
+    alt: 'image',
+    dark: false,
+    primary: false,
+    darkText: true,
+    projectsButton: "https://github.com/LostStruct24/BMI-calculator"
+}
+
+export const AIPhotoGenerator = {
+    id: 'projects',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'https://loststruct24.github.io/AI-Photo-Generator/',
+    headline: 'AI Photo Generator',
+    description: "AI photo generator made with ReactJS",
+    buttonLabel: 'Repo',
+    imgStart: true,
+    img: require('../../images/AIPhotoGenerator.png').default,
+    imgLink: 'https://github.com/LostStruct24/AI-Photo-Generator',
+    alt: 'image',
+    dark: true,
+    primary: true,
+    darkText: false,
+    projectsButton: "https://github.com/LostStruct24/AI-Photo-Generator"
+}
+
 export const ToDoList = {
     id: 'projects',
     lightBg: true,
@@ -126,21 +164,3 @@ export const BurgerApp = {
     projectsButton: "https://github.com/LostStruct24/BurgerApp"
 }
 
-export const BmiCalculator = {
-    id: 'projects',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'https://loststruct24.github.io/BMI-calculator/',
-    headline: 'BMI Calculator',
-    description: "Body mass index calculator made with JavaScript",
-    buttonLabel: 'Repo',
-    imgStart: true,
-    img: require('../../images/BMI-Calculator.png').default,
-    imgLink: 'https://loststruct24.github.io/BMI-calculator/',
-    alt: 'image',
-    dark: false,
-    primary: false,
-    darkText: true,
-    projectsButton: "https://github.com/LostStruct24/BMI-calculator"
-}

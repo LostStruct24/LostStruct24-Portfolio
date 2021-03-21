@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
+
+display: flex;
     color: #EEEDE7;
     background: ${({lightBg}) => (lightBg ? '#B6E2D3' : '#4b615d')};
 
