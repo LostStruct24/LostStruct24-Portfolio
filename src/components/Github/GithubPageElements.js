@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const GithubContainer = styled.div`
-    height: 600px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;

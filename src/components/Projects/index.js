@@ -19,7 +19,7 @@ const Projects = ({lightBg, id, imgLink, imgStart, lightText, topLine, headline,
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <ImgLink href={imgLink} target="_blank" rel="noreferrer" ><Img src={img} alt={alt} /></ImgLink>
+                                <ImgLink href={imgLink} target="_blank" rel="noreferrer" ><Img src={img} alt={alt}/></ImgLink>
                             </ImgWrap>
                         </Column2>
                     </ProjectRow>

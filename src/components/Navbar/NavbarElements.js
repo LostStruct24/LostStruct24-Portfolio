@@ -124,8 +124,8 @@ export const NavBtnLink = styled(LinkR)`
 //Projects Navbar //
 export const ProjectsNav = styled.nav`
     background: #182d36;
-    height: 80px;
-    margin-top: -80px;
+    height: 50px;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,9 +155,10 @@ export const ProjectsNavLink = styled(LinkS)`
     color: #E5F2F0;
     text-decoration: none;
     display: flex;
+    margin-top: 5px;
     align-items: center;
-    padding: 0 1rem;
-    height: 100%;
+    padding: 0 2rem;
+    height: 72%;
     cursor: pointer;
 
     &.active {
@@ -170,10 +171,12 @@ export const ProjectsNavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
+    margin-top: 5px;
+    margin-left: 25px;
 
     @media screen and (max-width: 768px) {
         display: none;
     }
 `;
+
 

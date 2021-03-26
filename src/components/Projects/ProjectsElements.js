@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
-
-display: flex;
+    display: flex;
     color: #EEEDE7;
     background: ${({lightBg}) => (lightBg ? '#B6E2D3' : '#4b615d')};
 
@@ -14,12 +13,20 @@ display: flex;
 export const ProjectWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 600px;
+    height: 400px;
     width: 100%;
     max-width: 1100px;
     margin:  auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        height: 500px;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 400px;
+    }
 `;
 
 export const ProjectRow = styled.div`
@@ -62,8 +69,8 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
     max-width: 440px;
-    margin-bottom: 35px;
     font-size: 18px;
+    margin-bottom: 35px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#152D2E' : '#E5F2F0')};
 `;
@@ -90,25 +97,29 @@ export const ProjectsButton = styled.a`
     
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #B6E2D3;
-        color: #43616F;
+        background: #859cab;
+        color: #152d2e;
     }
 `;
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 500px;
     height: 100%;
 `;
 
 export const Img = styled.img`
-    width: 100%;
-    margin: 0 0 10px 0;
+    width: 80%;
+    margin: 0 0 10px 50px;
     padding-right: 0;
 
     &:hover {
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
+    }
+
+    @media screen and (max-width: 480px) {
+        margin: 0 0 10px 20px;
     }
 `;
 
