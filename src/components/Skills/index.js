@@ -3,7 +3,7 @@ import { SkillsContainer, SkillsH1, SkillsH2, SkillsWrapper, SkillsCard, SkillsP
 import { SiAdobephotoshop, SiPython } from 'react-icons/si';
 import { DiCode } from 'react-icons/di';
 
-const Services = () => {
+const Skills = () => {
     return (
         <SkillsContainer id="skills">
             <SkillsH1>Skills and Experience</SkillsH1>
@@ -20,12 +20,12 @@ const Services = () => {
                 </SkillsCard>
                 <SkillsCard>
                     <SiPython style={{color: '#637E90', height: '30px', width: '30px', marginBottom: '15px' }} />
-                    <SkillsH2>Other Languages I'm Learning</SkillsH2>
-                    <SkillsP>Python</SkillsP>
+                    <SkillsH2>I'm Currently Learning</SkillsH2>
+                    <SkillsP>NodeJs<br />Python</SkillsP>
                 </SkillsCard>
             </SkillsWrapper>
         </SkillsContainer>
     )
 }
 
-export default Services;
+export default Skills;
