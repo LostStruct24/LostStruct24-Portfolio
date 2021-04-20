@@ -1,8 +1,8 @@
 export const NeutrinoVPN = {
     id: 'projects',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'https://loststruct24.github.io/NeutrinoVPN/',
     headline: 'NeutrinoVPN',
     description: "VPN website made with ReactJs & styled components",
@@ -11,9 +11,9 @@ export const NeutrinoVPN = {
     img: require('../../images/NeutrinoVPN.png').default,
     imgLink: "https://loststruct24.github.io/NeutrinoVPN/",
     alt: 'image',
-    dark: true,
-    primary: true,
-    darkText: false,
+    dark: false,
+    primary: false,
+    darkText: true,
 }
 
 export const PizzaRestaurant = {
@@ -164,3 +164,21 @@ export const BurgerApp = {
     projectsButton: "https://github.com/LostStruct24/BurgerApp"
 }
 
+export const ClimateGe = {
+    id: 'projects',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'https://Climate.ge',
+    headline: 'Climate.ge',
+    description: "Georgian weather forecast website built using ReactJs",
+    buttonLabel: 'Visit Website',
+    imgStart: true,
+    img: require('../../images/ClimateGe.png').default,
+    imgLink: 'https://Climate.ge',
+    alt: 'image',
+    dark: true,
+    primary: true,
+    darkText: false,
+    projectsButton: "https://Climate.ge"
+}
