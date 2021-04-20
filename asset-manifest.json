@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/LostStruct24-Portfolio/static/css/main.7f536646.chunk.css",
-    "main.js": "/LostStruct24-Portfolio/static/js/main.14e0c925.chunk.js",
-    "main.js.map": "/LostStruct24-Portfolio/static/js/main.14e0c925.chunk.js.map",
+    "main.js": "/LostStruct24-Portfolio/static/js/main.dfb39deb.chunk.js",
+    "main.js.map": "/LostStruct24-Portfolio/static/js/main.dfb39deb.chunk.js.map",
     "runtime-main.js": "/LostStruct24-Portfolio/static/js/runtime-main.812a7128.js",
     "runtime-main.js.map": "/LostStruct24-Portfolio/static/js/runtime-main.812a7128.js.map",
-    "static/js/2.44a4e3ac.chunk.js": "/LostStruct24-Portfolio/static/js/2.44a4e3ac.chunk.js",
-    "static/js/2.44a4e3ac.chunk.js.map": "/LostStruct24-Portfolio/static/js/2.44a4e3ac.chunk.js.map",
+    "static/js/2.7a0e869d.chunk.js": "/LostStruct24-Portfolio/static/js/2.7a0e869d.chunk.js",
+    "static/js/2.7a0e869d.chunk.js.map": "/LostStruct24-Portfolio/static/js/2.7a0e869d.chunk.js.map",
     "index.html": "/LostStruct24-Portfolio/index.html",
     "static/css/main.7f536646.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.7f536646.chunk.css.map",
-    "static/js/2.44a4e3ac.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.44a4e3ac.chunk.js.LICENSE.txt",
+    "static/js/2.7a0e869d.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.7a0e869d.chunk.js.LICENSE.txt",
     "static/media/AIPhotoGenerator.png": "/LostStruct24-Portfolio/static/media/AIPhotoGenerator.189dfb10.png",
     "static/media/BMI-Calculator.png": "/LostStruct24-Portfolio/static/media/BMI-Calculator.6222157c.png",
     "static/media/Burger.png": "/LostStruct24-Portfolio/static/media/Burger.c4061ec0.png",
+    "static/media/ClimateGe.png": "/LostStruct24-Portfolio/static/media/ClimateGe.9b600e26.png",
     "static/media/Covid19Tracker.png": "/LostStruct24-Portfolio/static/media/Covid19Tracker.9c8c04fa.png",
     "static/media/NeutrinoVPN.png": "/LostStruct24-Portfolio/static/media/NeutrinoVPN.dd0e6ffd.png",
     "static/media/Pizza.png": "/LostStruct24-Portfolio/static/media/Pizza.e44abb0e.png",
@@ -21,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.812a7128.js",
-    "static/js/2.44a4e3ac.chunk.js",
+    "static/js/2.7a0e869d.chunk.js",
     "static/css/main.7f536646.chunk.css",
-    "static/js/main.14e0c925.chunk.js"
+    "static/js/main.dfb39deb.chunk.js"
   ]
 }
