@@ -149,18 +149,18 @@ export const ToDoList = {
 
 export const BurgerApp = {
     id: 'projects',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     headline: 'BurgerApp',
     description: "A Burger builder App built using ReactJs and ReduxJs",
     buttonLabel: 'Repo',
     imgStart: true,
     img: require('../../images/Burger.png').default,
     alt: 'image',
-    dark: true,
-    primary: true,
-    darkText: false,
+    dark: false,
+    primary: false,
+    darkText: true,
     projectsButton: "https://github.com/LostStruct24/BurgerApp"
 }
 
@@ -181,4 +181,23 @@ export const ClimateGe = {
     primary: true,
     darkText: false,
     projectsButton: "https://Climate.ge"
+}
+
+export const TemperatureConverter = {
+    id: 'projects',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'https://loststruct24.github.io/TemperatureConverter/',
+    headline: 'Temperature Converter',
+    description: "Temperature Converter made with HTML, CSS and JavaScript",
+    buttonLabel: 'Repo',
+    imgStart: true,
+    img: require('../../images/TemperatureConverter.png').default,
+    imgLink: 'https://loststruct24.github.io/TemperatureConverter/',
+    alt: 'image',
+    dark: true,
+    primary: true,
+    darkText: false,
+    projectsButton: "https://github.com/LostStruct24/TemperatureConverter"
 }
