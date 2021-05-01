@@ -14,6 +14,7 @@ export const NeutrinoVPN = {
     dark: false,
     primary: false,
     darkText: true,
+    projectsButton: "https://github.com/LostStruct24/NeutrinoVPN",
 }
 
 export const PizzaRestaurant = {
