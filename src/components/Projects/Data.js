@@ -123,7 +123,7 @@ export const AIPhotoGenerator = {
     buttonLabel: 'Repo',
     imgStart: true,
     img: require('../../images/AIPhotoGenerator.png').default,
-    imgLink: 'https://github.com/LostStruct24/AI-Photo-Generator',
+    imgLink: 'https://loststruct24.github.io/AI-Photo-Generator/',
     alt: 'image',
     dark: true,
     primary: true,
