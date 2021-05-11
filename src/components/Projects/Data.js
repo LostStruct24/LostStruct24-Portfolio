@@ -202,3 +202,22 @@ export const TemperatureConverter = {
     darkText: false,
     projectsButton: "https://github.com/LostStruct24/TemperatureConverter"
 }
+
+export const AIFaceDetector = {
+    id: 'projects',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'https://loststruct24.github.io/AI-Face-Detector/',
+    headline: 'AI Face Detector',
+    description: "Face Detector website made with ReactJS",
+    buttonLabel: 'Repo',
+    imgStart: true,
+    img: require('../../images/AIFaceDetector.png').default,
+    imgLink: 'https://loststruct24.github.io/AI-Face-Detector/',
+    alt: 'image',
+    dark: false,
+    primary: false,
+    darkText: true,
+    projectsButton: "https://github.com/LostStruct24/AI-Face-Detector"
+}
