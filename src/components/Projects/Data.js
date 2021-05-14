@@ -216,8 +216,8 @@ export const AIFaceDetector = {
     img: require('../../images/AIFaceDetector.png').default,
     imgLink: 'https://loststruct24.github.io/AI-Face-Detector/',
     alt: 'image',
-    dark: false,
-    primary: false,
-    darkText: true,
+    dark: true,
+    primary: true,
+    darkText: false,
     projectsButton: "https://github.com/LostStruct24/AI-Face-Detector"
 }
