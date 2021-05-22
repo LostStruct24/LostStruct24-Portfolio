@@ -221,3 +221,22 @@ export const AIFaceDetector = {
     darkText: false,
     projectsButton: "https://github.com/LostStruct24/AI-Face-Detector"
 }
+
+export const YoutubeViewer = {
+    id: 'projects',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'https://loststruct24.github.io/YoutubeViewer/',
+    headline: 'YoutubeViewer',
+    description: "Youtube video viewer website made with ReactJS.",
+    buttonLabel: 'Repo',
+    imgStart: true,
+    img: require('../../images/YoutubeViewer.png').default,
+    imgLink: 'https://loststruct24.github.io/YoutubeViewer/',
+    alt: 'image',
+    dark: false,
+    primary: false,
+    darkText: true,
+    projectsButton: "https://github.com/LostStruct24/YoutubeViewer"
+}
