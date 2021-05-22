@@ -1,31 +1,32 @@
 {
   "files": {
     "main.css": "/LostStruct24-Portfolio/static/css/main.7f536646.chunk.css",
-    "main.js": "/LostStruct24-Portfolio/static/js/main.ed67a83b.chunk.js",
-    "main.js.map": "/LostStruct24-Portfolio/static/js/main.ed67a83b.chunk.js.map",
+    "main.js": "/LostStruct24-Portfolio/static/js/main.625dcaab.chunk.js",
+    "main.js.map": "/LostStruct24-Portfolio/static/js/main.625dcaab.chunk.js.map",
     "runtime-main.js": "/LostStruct24-Portfolio/static/js/runtime-main.812a7128.js",
     "runtime-main.js.map": "/LostStruct24-Portfolio/static/js/runtime-main.812a7128.js.map",
-    "static/js/2.f92e4c71.chunk.js": "/LostStruct24-Portfolio/static/js/2.f92e4c71.chunk.js",
-    "static/js/2.f92e4c71.chunk.js.map": "/LostStruct24-Portfolio/static/js/2.f92e4c71.chunk.js.map",
+    "static/js/2.01a25873.chunk.js": "/LostStruct24-Portfolio/static/js/2.01a25873.chunk.js",
+    "static/js/2.01a25873.chunk.js.map": "/LostStruct24-Portfolio/static/js/2.01a25873.chunk.js.map",
     "index.html": "/LostStruct24-Portfolio/index.html",
     "static/css/main.7f536646.chunk.css.map": "/LostStruct24-Portfolio/static/css/main.7f536646.chunk.css.map",
-    "static/js/2.f92e4c71.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.f92e4c71.chunk.js.LICENSE.txt",
+    "static/js/2.01a25873.chunk.js.LICENSE.txt": "/LostStruct24-Portfolio/static/js/2.01a25873.chunk.js.LICENSE.txt",
     "static/media/AIFaceDetector.png": "/LostStruct24-Portfolio/static/media/AIFaceDetector.a1e6fed3.png",
     "static/media/AIPhotoGenerator.png": "/LostStruct24-Portfolio/static/media/AIPhotoGenerator.189dfb10.png",
     "static/media/BMI-Calculator.png": "/LostStruct24-Portfolio/static/media/BMI-Calculator.6222157c.png",
     "static/media/Burger.png": "/LostStruct24-Portfolio/static/media/Burger.c4061ec0.png",
-    "static/media/ClimateGe.png": "/LostStruct24-Portfolio/static/media/ClimateGe.9b600e26.png",
+    "static/media/ClimateGe.png": "/LostStruct24-Portfolio/static/media/ClimateGe.f6315c01.png",
     "static/media/Covid19Tracker.png": "/LostStruct24-Portfolio/static/media/Covid19Tracker.9c8c04fa.png",
     "static/media/NeutrinoVPN.png": "/LostStruct24-Portfolio/static/media/NeutrinoVPN.dd0e6ffd.png",
     "static/media/Pizza.png": "/LostStruct24-Portfolio/static/media/Pizza.e44abb0e.png",
     "static/media/RoboFriends.png": "/LostStruct24-Portfolio/static/media/RoboFriends.1a34bf9b.png",
     "static/media/TemperatureConverter.png": "/LostStruct24-Portfolio/static/media/TemperatureConverter.cce415d8.png",
-    "static/media/ToDoList.png": "/LostStruct24-Portfolio/static/media/ToDoList.4d380359.png"
+    "static/media/ToDoList.png": "/LostStruct24-Portfolio/static/media/ToDoList.4d380359.png",
+    "static/media/YoutubeViewer.png": "/LostStruct24-Portfolio/static/media/YoutubeViewer.c5313924.png"
   },
   "entrypoints": [
     "static/js/runtime-main.812a7128.js",
-    "static/js/2.f92e4c71.chunk.js",
+    "static/js/2.01a25873.chunk.js",
     "static/css/main.7f536646.chunk.css",
-    "static/js/main.ed67a83b.chunk.js"
+    "static/js/main.625dcaab.chunk.js"
   ]
 }
