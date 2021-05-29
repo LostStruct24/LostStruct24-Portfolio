@@ -137,7 +137,7 @@ export const ToDoList = {
     lightText: false,
     lightTextDesc: false,
     headline: 'ToDoList',
-    description: "A simple to do list app built in react",
+    description: "A simple to do list app built in React",
     buttonLabel: 'Repo',
     imgStart: true,
     img: require('../../images/ToDoList.png').default,
@@ -229,7 +229,7 @@ export const YoutubeViewer = {
     lightTextDesc: false,
     topLine: 'https://loststruct24.github.io/YoutubeViewer/',
     headline: 'YoutubeViewer',
-    description: "Youtube video viewer website made with ReactJS.",
+    description: "Youtube video viewer website made with ReactJS",
     buttonLabel: 'Repo',
     imgStart: true,
     img: require('../../images/YoutubeViewer.png').default,
@@ -239,4 +239,23 @@ export const YoutubeViewer = {
     primary: false,
     darkText: true,
     projectsButton: "https://github.com/LostStruct24/YoutubeViewer"
+}
+
+export const WeatherFinder = {
+    id: 'projects',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'https://loststruct24.github.io/WeatherFinder/',
+    headline: 'WeatherFinder',
+    description: "Weather Application made with ReactJS",
+    buttonLabel: 'Repo',
+    imgStart: true,
+    img: require('../../images/WeatherFinder.png').default,
+    imgLink: 'https://loststruct24.github.io/WeatherFinder/',
+    alt: 'image',
+    dark: true,
+    primary: true,
+    darkText: false,
+    projectsButton: "https://github.com/LostStruct24/WeatherFinder"
 }

@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Github from '../components/Github';
 import ProjectsSidebar from '../components/Sidebar/ProjectsSidebar';
 import ProjectsNavbar from '../components/Navbar/ProjectsNavbar';
-import { NeutrinoVPN, PizzaRestaurant, Covid19Tracker, ChatApp, RoboFriends, ToDoList, BurgerApp, BmiCalculator, AIPhotoGenerator, ClimateGe, TemperatureConverter, AIFaceDetector, YoutubeViewer } from '../components/Projects/Data';
+import { NeutrinoVPN, PizzaRestaurant, Covid19Tracker, ChatApp, RoboFriends, ToDoList, BurgerApp, BmiCalculator, AIPhotoGenerator, ClimateGe, TemperatureConverter, AIFaceDetector, YoutubeViewer, WeatherFinder } from '../components/Projects/Data';
 import ScrollToTop from '../components/ScrollToTop';
 
 const ProjectsPage = () => {
@@ -32,6 +32,7 @@ const ProjectsPage = () => {
             <Projects {...BurgerApp} />
             <Projects {...AIFaceDetector} />
             <Projects {...YoutubeViewer} />
+            <Projects {...WeatherFinder} />
             <Github />
             <Footer />
         </>
