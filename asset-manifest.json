@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LostStruct24-Portfolio/static/css/main.7f536646.chunk.css",
-    "main.js": "/LostStruct24-Portfolio/static/js/main.839add5b.chunk.js",
-    "main.js.map": "/LostStruct24-Portfolio/static/js/main.839add5b.chunk.js.map",
+    "main.js": "/LostStruct24-Portfolio/static/js/main.817dc1bd.chunk.js",
+    "main.js.map": "/LostStruct24-Portfolio/static/js/main.817dc1bd.chunk.js.map",
     "runtime-main.js": "/LostStruct24-Portfolio/static/js/runtime-main.812a7128.js",
     "runtime-main.js.map": "/LostStruct24-Portfolio/static/js/runtime-main.812a7128.js.map",
     "static/js/2.e3b2999f.chunk.js": "/LostStruct24-Portfolio/static/js/2.e3b2999f.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/Burger.png": "/LostStruct24-Portfolio/static/media/Burger.c4061ec0.png",
     "static/media/ClimateGe.png": "/LostStruct24-Portfolio/static/media/ClimateGe.f6315c01.png",
     "static/media/Covid19Tracker.png": "/LostStruct24-Portfolio/static/media/Covid19Tracker.9c8c04fa.png",
+    "static/media/LostStruct24Portfolio.png": "/LostStruct24-Portfolio/static/media/LostStruct24Portfolio.9073fd3f.png",
     "static/media/NeutrinoVPN.png": "/LostStruct24-Portfolio/static/media/NeutrinoVPN.dd0e6ffd.png",
     "static/media/Pizza.png": "/LostStruct24-Portfolio/static/media/Pizza.e44abb0e.png",
     "static/media/RoboFriends.png": "/LostStruct24-Portfolio/static/media/RoboFriends.1a34bf9b.png",
@@ -28,6 +29,6 @@
     "static/js/runtime-main.812a7128.js",
     "static/js/2.e3b2999f.chunk.js",
     "static/css/main.7f536646.chunk.css",
-    "static/js/main.839add5b.chunk.js"
+    "static/js/main.817dc1bd.chunk.js"
   ]
 }
