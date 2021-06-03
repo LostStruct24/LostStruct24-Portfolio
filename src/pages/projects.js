@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Github from '../components/Github';
 import ProjectsSidebar from '../components/Sidebar/ProjectsSidebar';
 import ProjectsNavbar from '../components/Navbar/ProjectsNavbar';
-import { NeutrinoVPN, PizzaRestaurant, Covid19Tracker, ChatApp, RoboFriends, ToDoList, BurgerApp, BmiCalculator, AIPhotoGenerator, ClimateGe, TemperatureConverter, AIFaceDetector, YoutubeViewer, WeatherFinder } from '../components/Projects/Data';
+import { NeutrinoVPN, PizzaRestaurant, Covid19Tracker, ChatApp, RoboFriends, ToDoList, BurgerApp, BmiCalculator, AIPhotoGenerator, ClimateGe, TemperatureConverter, AIFaceDetector, YoutubeViewer, WeatherFinder, LostStruct24Portfolio } from '../components/Projects/Data';
 import ScrollToTop from '../components/ScrollToTop';
 
 const ProjectsPage = () => {
@@ -20,19 +20,20 @@ const ProjectsPage = () => {
             <ProjectsSidebar isOpen={isOpen} toggle={toggle}/>
             <ProjectsNavbar toggle={toggle} />
             <Projects {...NeutrinoVPN} />
+            <Projects {...LostStruct24Portfolio} />
             <Projects {...ClimateGe} />
-            <Projects {...PizzaRestaurant} />
             <Projects {...Covid19Tracker} />
+            <Projects {...PizzaRestaurant} />
             <Projects {...BmiCalculator} />
+            <Projects {...YoutubeViewer} />
+            <Projects {...AIFaceDetector} />
             <Projects {...AIPhotoGenerator} />
+            <Projects {...TemperatureConverter} />
             <Projects {...ChatApp} />
             <Projects {...RoboFriends} />
-            <Projects {...ToDoList} />
-            <Projects {...TemperatureConverter} />
             <Projects {...BurgerApp} />
-            <Projects {...AIFaceDetector} />
-            <Projects {...YoutubeViewer} />
             <Projects {...WeatherFinder} />
+            <Projects {...ToDoList} />
             <Github />
             <Footer />
         </>

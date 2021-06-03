@@ -95,9 +95,9 @@ export const RoboFriends = {
 
 export const BmiCalculator = {
     id: 'projects',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'https://loststruct24.github.io/BMI-calculator/',
     headline: 'BMI Calculator',
     description: "Body mass index calculator made with JavaScript",
@@ -107,16 +107,16 @@ export const BmiCalculator = {
     imgLink: 'https://loststruct24.github.io/BMI-calculator/',
     alt: 'image',
     dark: false,
-    primary: false,
-    darkText: true,
+    primary: true,
+    darkText: false,
     projectsButton: "https://github.com/LostStruct24/BMI-calculator"
 }
 
 export const AIPhotoGenerator = {
     id: 'projects',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'https://loststruct24.github.io/AI-Photo-Generator/',
     headline: 'AI Photo Generator',
     description: "AI photo generator made with ReactJS",
@@ -125,9 +125,9 @@ export const AIPhotoGenerator = {
     img: require('../../images/AIPhotoGenerator.png').default,
     imgLink: 'https://loststruct24.github.io/AI-Photo-Generator/',
     alt: 'image',
-    dark: true,
+    dark: false,
     primary: true,
-    darkText: false,
+    darkText: true,
     projectsButton: "https://github.com/LostStruct24/AI-Photo-Generator"
 }
 
@@ -167,9 +167,9 @@ export const BurgerApp = {
 
 export const ClimateGe = {
     id: 'projects',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'https://Climate.ge',
     headline: 'Climate.ge',
     description: "Georgian weather forecast website built using ReactJs",
@@ -178,9 +178,9 @@ export const ClimateGe = {
     img: require('../../images/ClimateGe.png').default,
     imgLink: 'https://Climate.ge',
     alt: 'image',
-    dark: true,
-    primary: true,
-    darkText: false,
+    dark: false,
+    primary: false,
+    darkText: true,
     projectsButton: "https://Climate.ge"
 }
 
@@ -258,4 +258,23 @@ export const WeatherFinder = {
     primary: true,
     darkText: false,
     projectsButton: "https://github.com/LostStruct24/WeatherFinder"
+}
+
+export const LostStruct24Portfolio = {
+    id: 'projects',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'https://loststruct24.github.io/LostStruct24-Portfolio/',
+    headline: 'LostStruct24 Portfolio',
+    description: "My Portfolio website made with React and styled components",
+    buttonLabel: 'Repo',
+    imgStart: true,
+    img: require('../../images/LostStruct24Portfolio.png').default,
+    imgLink: 'https://loststruct24.github.io/LostStruct24-Portfolio/',
+    alt: 'image',
+    dark: true,
+    primary: true,
+    darkText: false,
+    projectsButton: "https://github.com/LostStruct24/LostStruct24-Portfolio"
 }
