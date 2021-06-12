@@ -6,11 +6,11 @@ import ProjectsPage from './pages/projects';
 import { Helmet } from 'react-helmet';
 
 function App() {
+  <Helmet>
+    <title>LostStruct24</title>
+  </Helmet> 
   return (
     <Router>
-      <Helmet>
-        <title>LostStruct24</title>
-      </Helmet> 
       <Switch>
         <Route path="/LostStruct24-Portfolio" component={Home} exact />
         <Route path="/LostStruct24-Portfolio/projects" component={ProjectsPage} exact />
