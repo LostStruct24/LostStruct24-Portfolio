@@ -21,7 +21,7 @@ const Skills = () => {
                 <SkillsCard>
                     <SiPython style={{color: '#637E90', height: '30px', width: '30px', marginBottom: '15px' }} />
                     <SkillsH2>I'm Currently Learning</SkillsH2>
-                    <SkillsP>Node.js<br />Python</SkillsP>
+                    <SkillsP>AngularJS<br />Node.js<br />Python</SkillsP>
                 </SkillsCard>
             </SkillsWrapper>
         </SkillsContainer>
