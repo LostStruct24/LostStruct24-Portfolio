@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 
 export const SkillsContainer = styled.div`
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #364e59;
+
+
+    @media screen and (max-width: 800px) {
+        height: 800px;
+    }
     
     @media screen and (max-width: 768px) {
         height: 1100px;
@@ -21,10 +26,9 @@ export const SkillsWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
-    grid-gap: 16px;
-    padding: 0 50px;
+    grid-gap: 20px;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
@@ -42,9 +46,10 @@ export const SkillsCard = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 5px;
+    height: 100%;
     max-height: 340px;
-    padding: 30px;
+    padding: 30px 30px 30px 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
 
@@ -58,7 +63,7 @@ export const SkillsCard = styled.div`
 export const SkillsH1 = styled.h1`
     font-size: 2.5rem;
     color: #B6E2D3;
-    margin-bottom: 64px;
+    margin-bottom: 70px;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;
@@ -76,7 +81,8 @@ export const SkillsH2 = styled.h2`
 `;
 
 export const SkillsP = styled.p`
-    font-size: 1rem;
+    font-size: 18px;
     text-align: center;
     color: #43616F;
+    margin-bottom: 8px;
 `;

@@ -6,7 +6,7 @@ export const AboutContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 700px;
+    height: 680px;
     position: relative;
     z-index: 1;
 `;
@@ -38,6 +38,7 @@ export const AboutH1 = styled.h1`
     font-size: 48px;
     text-shadow: 0 1px #5D7772;
     text-align: center;
+    
 
     @media screen and (max-width: 768px) {
         font-size: 40px;

@@ -1,7 +1,6 @@
 import React from 'react';
 import { SkillsContainer, SkillsH1, SkillsH2, SkillsWrapper, SkillsCard, SkillsP } from './SkillsElements';
-import { SiAdobephotoshop, SiPython } from 'react-icons/si';
-import { DiCode } from 'react-icons/di';
+import { SiAdobephotoshop, SiAngular, SiJavascript, SiHtml5, SiCss3, SiReact, SiGithub, SiGit, SiVisualstudiocode, SiAtom } from 'react-icons/si';
 
 const Skills = () => {
     return (
@@ -9,19 +8,26 @@ const Skills = () => {
             <SkillsH1>Skills and Experience</SkillsH1>
             <SkillsWrapper>
                 <SkillsCard>
-                    <DiCode style={{color: '#637E90', height: '50px', width: '50px', marginBottom: '15px' }} />
-                    <SkillsH2>Front-End Web Developer</SkillsH2>
-                    <SkillsP>HTML<br/>CSS<br/>JavaScript<br/>ReactJS</SkillsP>
+                    <SkillsH2>Front-End</SkillsH2>
+                    <SkillsP><SiJavascript /> JavaScript</SkillsP>
+                    <SkillsP><SiReact /> ReactJS</SkillsP>
+                    <SkillsP><SiHtml5 /> HTML</SkillsP>
+                    <SkillsP><SiCss3 /> CSS</SkillsP>
                 </SkillsCard>
                 <SkillsCard>
-                    <SiAdobephotoshop style={{color: '#637E90', height: '30px', width: '30px', marginBottom: '15px' }} />
                     <SkillsH2>Designer</SkillsH2>
-                    <SkillsP>Photoshop</SkillsP>
+                    <SkillsP><SiAdobephotoshop /> Photoshop</SkillsP>
                 </SkillsCard>
                 <SkillsCard>
-                    <SiPython style={{color: '#637E90', height: '30px', width: '30px', marginBottom: '15px' }} />
-                    <SkillsH2>I'm Currently Learning</SkillsH2>
-                    <SkillsP>AngularJS<br />Node.js<br />Python</SkillsP>
+                    <SkillsH2>Tools</SkillsH2>
+                    <SkillsP><SiGithub /> GitHub</SkillsP>
+                    <SkillsP><SiGit /> Git</SkillsP>
+                    <SkillsP><SiVisualstudiocode /> Visual Studio Code</SkillsP>
+                    <SkillsP><SiAtom /> Atom</SkillsP>
+                </SkillsCard>
+                <SkillsCard>
+                    <SkillsH2>Currently Learning</SkillsH2>
+                    <SkillsP><SiAngular /> AngularJS</SkillsP>
                 </SkillsCard>
             </SkillsWrapper>
         </SkillsContainer>

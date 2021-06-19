@@ -19,9 +19,8 @@ const particlesOptions = {
 const About = () => {
     return (
         <AboutContainer id="home">
-            <Particles className='particles'
-            params={particlesOptions} />
-            <AboutBg></AboutBg>
+            <AboutBg><Particles className='particles'
+            params={particlesOptions} /></AboutBg>
             <AboutContent>
                 <Cow />
                 <AboutH1>{"<"} LostStruct24 {"/>"}</AboutH1>
