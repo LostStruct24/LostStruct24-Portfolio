@@ -29,6 +29,7 @@ export const SkillsWrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 20px;
+    margin-bottom: 80px;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
@@ -48,7 +49,7 @@ export const SkillsCard = styled.div`
     align-items: center;
     border-radius: 5px;
     height: 100%;
-    max-height: 340px;
+    max-height: 300px;
     padding: 30px 30px 30px 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
@@ -63,7 +64,7 @@ export const SkillsCard = styled.div`
 export const SkillsH1 = styled.h1`
     font-size: 2.5rem;
     color: #B6E2D3;
-    margin-bottom: 70px;
+    margin-bottom: 85px;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;

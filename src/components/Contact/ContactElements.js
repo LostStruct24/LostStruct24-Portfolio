@@ -27,7 +27,7 @@ export const ContactWrapper = styled.div`
 export const ContactH1 = styled.h1`
     font-size: 2.5rem;
     color: #3d5966;
-    margin-bottom: 64px;
+    margin-bottom: 85px;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;
@@ -45,4 +45,5 @@ export const ContactMail = styled.a`
     font-size: 25px;
     align-items: center;
     text-shadow: 0 0.5px #5D7772;
+    margin-bottom: 80px;
 `;
