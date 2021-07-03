@@ -9,6 +9,14 @@ export const AboutContainer = styled.div`
     height: 680px;
     position: relative;
     z-index: 1;
+
+    @media screen and (min-width:200px) and (max-width:800px) {
+        height: 750px;
+    }
+
+    @media screen and (min-width: 1000px) {
+        height: 950px;
+    }
 `;
 
 export const AboutBg = styled.div`
@@ -39,13 +47,12 @@ export const AboutH1 = styled.h1`
     text-shadow: 0 1px #5D7772;
     text-align: center;
     
-
-    @media screen and (max-width: 768px) {
-        font-size: 40px;
+    @media screen and (min-width: 1000px) {
+        font-size: 60px;
     }
 
-    @media screen and (max-width: 480px) {
-        font-size: 32px;
+    @media screen and (min-width:200px) and (max-width:800px) {
+        font-size: 27px;
     }
 
     &:focus, &:hover {
@@ -59,12 +66,13 @@ export const AboutP = styled.p`
     font-size: 24px;
     text-align: center;
     max-width: 600px;
-    @media screen and (max-width: 768px) {
-        font-size: 24px;
+
+    @media screen and (min-width: 1000px) {
+        font-size: 30px;
     }
 
-    @media screen and (max-width: 480px) {
-        font-size: 18px;
+    @media screen and (min-width:200px) and (max-width:800px) {
+        font-size: 24px;
     }
 
     &:focus, &:hover {

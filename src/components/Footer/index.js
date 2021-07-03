@@ -20,13 +20,13 @@ const Footer = () => {
                                 target="_blank" 
                                 aria-label="Github" 
                                 rel="noreferrer">
-                                <SiGithub />
+                                <SiGithub style={{height: "30px", width: "30px"}}/>
                             </SocialIconLink>
                             <SocialIconLink href="mailto:loststruct24@gmail.com"
                                 target="_blank"
                                 aria-label="Gmail" 
                                 rel="noreferrer">
-                                <SiGmail />
+                                <SiGmail style={{height: "30px", width: "30px"}}/>
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>

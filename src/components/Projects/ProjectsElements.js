@@ -20,12 +20,8 @@ export const ProjectWrapper = styled.div`
     padding: 0 24px;
     justify-content: center;
 
-    @media screen and (max-width: 768px) {
-        height: 500px;
-    }
-
-    @media screen and (max-width: 480px) {
-        height: 400px;
+    @media screen and (min-width:200px) and (max-width:800px) {
+        height: 560px;
     }
 `;
 
@@ -57,14 +53,10 @@ export const TextWrapper = styled.div`
 `;
 
 export const Heading = styled.h1`
-    font-size: 48px;
+    font-size: 30px;
     line-height: 1.5;
     font-weight: 600;
     color: ${({lightText}) => (lightText ? '#E5F2F0' : '#152D2E')};
-
-    @media screen and (max-width: 480px) {
-        font-size: 32px;
-    }
 `;
 
 export const Subtitle = styled.p`
@@ -88,7 +80,7 @@ export const ProjectsButton = styled.a`
     padding: 14px 48px;
     color: #E5F2F0;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 17px;
     cursor: pointer;
     display: flex;
     justify-content: center;

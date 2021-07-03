@@ -7,18 +7,13 @@ export const SkillsContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #364e59;
-
-
-    @media screen and (max-width: 800px) {
-        height: 800px;
-    }
     
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width:200px) and (max-width:800px) {
         height: 1100px;
     }
-
-    @media screen and (max-width: 480px) {
-        height: 1000px;
+    
+    @media screen and (min-width: 1000px) {
+        height: 950px;
     }
 `;
 
@@ -33,6 +28,7 @@ export const SkillsWrapper = styled.div`
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
+        padding: 20px 50px;
     }
 
     @media screen and (max-width: 768px) {
@@ -59,6 +55,10 @@ export const SkillsCard = styled.div`
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
+
+    @media screen and (min-width: 1000px) {
+        max-height: 500px;
+    }
 `;
 
 export const SkillsH1 = styled.h1`
@@ -66,10 +66,10 @@ export const SkillsH1 = styled.h1`
     color: #B6E2D3;
     margin-bottom: 85px;
 
-    @media screen and (max-width: 480px) {
-        font-size: 2rem;
+    @media screen and (min-width:200px) and (max-width:800px) {
+        font-size: 1.5rem;
     }
-
+    
     &:focus, &:hover {
         transform: rotate(3deg);
     }
@@ -79,11 +79,19 @@ export const SkillsH2 = styled.h2`
     font-size: 20px;
     margin-bottom: 20px;
     color: #43616F;
+
+    @media screen and (min-width: 900px) {
+        font-size: 25px;
+    }
 `;
 
 export const SkillsP = styled.p`
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     color: #43616F;
     margin-bottom: 8px;
+
+    @media screen and (min-width: 900px) {
+        font-size: 22px;
+    }
 `;

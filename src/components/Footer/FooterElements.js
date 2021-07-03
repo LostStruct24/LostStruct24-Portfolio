@@ -46,6 +46,7 @@ export const FooterLogo = styled(Link)`
 export const WebsiteRights = styled.small`
     color: #B6E2D3;
     margin-bottom: 16px;
+    font-size: 16px;
 `;
 
 export const SocialIcons = styled.div`

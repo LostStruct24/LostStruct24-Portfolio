@@ -8,12 +8,12 @@ export const ContactContainer = styled.div`
     align-items: center;
     background: #B6E2D3;
 
-    @media screen and (max-width: 768px) {
-        height: 1100px;
+    @media screen and (min-width:200px) and (max-width:800px) {
+        height: 750px;
     }
 
-    @media screen and (max-width: 480px) {
-        height: 500px;
+    @media screen and (min-width: 1000px) {
+        height: 900px;
     }
 `;
 
@@ -29,9 +29,10 @@ export const ContactH1 = styled.h1`
     color: #3d5966;
     margin-bottom: 85px;
 
-    @media screen and (max-width: 480px) {
-        font-size: 2rem;
+    @media screen and (min-width:200px) and (max-width:800px) {
+        font-size: 1.5rem;
     }
+
 
     &:focus, &:hover {
         transform: rotate(3deg);
@@ -46,4 +47,12 @@ export const ContactMail = styled.a`
     align-items: center;
     text-shadow: 0 0.5px #5D7772;
     margin-bottom: 80px;
+
+    @media screen and (min-width:200px) and (max-width:800px) {
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: 1000px) {
+        font-size: 30px;
+    }
 `;

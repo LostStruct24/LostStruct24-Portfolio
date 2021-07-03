@@ -1,20 +1,17 @@
 import styled from 'styled-components';
 
 export const GithubContainer = styled.div`
-    height: 300px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #364e59;
 
-    @media screen and (max-width: 768px) {
-        height: 1000px;
-    }
-
-    @media screen and (max-width: 480px) {
+    @media screen and (min-width:200px) and (max-width:800px) {
         height: 500px;
     }
+
 `;
 
 export const GithubWrapper = styled.div`
@@ -45,4 +42,8 @@ export const Github = styled.a`
     font-size: 25px;
     align-items: center;
     text-shadow: 0 0.5px #43616F;
+
+    @media screen and (min-width:200px) and (max-width:800px) {
+        font-size: 20px;
+    }
 `;

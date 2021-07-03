@@ -39,6 +39,10 @@ export const NavLogo = styled(LinkR)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+
+    @media screen and (min-width: 1000px) {
+        font-size: 2rem;
+    }
 `;
 
 export const MobileIcon = styled.div`
@@ -82,6 +86,7 @@ export const NavLinks = styled(LinkS)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    font-size: 20px;
 
     &.active {
         border-bottom: 3px solid #EEEDE7;
@@ -111,6 +116,7 @@ export const NavBtnLink = styled(LinkR)`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    font-size: 20px;
 
     &:hover {
         transition: all 0.2 ease-in-out;
@@ -149,6 +155,10 @@ export const ProjectsNavLogo = styled(LinkR)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+
+    @media screen and (min-width: 1000px) {
+        font-size: 1.7rem;
+    }
 `;
 
 export const ProjectsNavLink = styled(LinkS)`
@@ -160,10 +170,12 @@ export const ProjectsNavLink = styled(LinkS)`
     padding: 0 2rem;
     height: 72%;
     cursor: pointer;
+    font-size: 18px;
 
     &.active {
         border-bottom: 3px solid #EEEDE7;
     }
+
 `;
 
 export const ProjectsNavMenu = styled.ul`
@@ -173,6 +185,7 @@ export const ProjectsNavMenu = styled.ul`
     text-align: center;
     margin-top: 5px;
     margin-left: 25px;
+    font-size: 18px;
 
     @media screen and (max-width: 768px) {
         display: none;
