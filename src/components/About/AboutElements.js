@@ -14,8 +14,8 @@ export const AboutContainer = styled.div`
         height: 750px;
     }
 
-    @media screen and (min-width: 1000px) {
-        height: 950px;
+    @media screen and (min-width: 1500px) {
+        height: 900px;
     }
 `;
 

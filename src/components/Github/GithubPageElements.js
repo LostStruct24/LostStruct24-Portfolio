@@ -11,7 +11,6 @@ export const GithubContainer = styled.div`
     @media screen and (min-width:200px) and (max-width:800px) {
         height: 500px;
     }
-
 `;
 
 export const GithubWrapper = styled.div`

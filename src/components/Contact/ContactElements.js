@@ -12,7 +12,7 @@ export const ContactContainer = styled.div`
         height: 750px;
     }
 
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1500px) {
         height: 900px;
     }
 `;
