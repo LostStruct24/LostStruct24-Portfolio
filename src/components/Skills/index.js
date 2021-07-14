@@ -1,6 +1,6 @@
 import React from 'react';
 import { SkillsContainer, SkillsH1, SkillsH2, SkillsWrapper, SkillsCard, SkillsP } from './SkillsElements';
-import { SiAdobephotoshop, SiAngular, SiJavascript, SiHtml5, SiCss3, SiReact, SiGithub, SiGit, SiVisualstudiocode, SiAtom, SiFirebase } from 'react-icons/si';
+import { SiAdobephotoshop, SiAngular, SiJavascript, SiHtml5, SiCss3, SiReact, SiGithub, SiGimp, SiArchlinux, SiPython, SiGit, SiVisualstudiocode, SiAtom, SiFirebase } from 'react-icons/si';
 
 const Skills = () => {
     return (
@@ -17,6 +17,7 @@ const Skills = () => {
                 <SkillsCard>
                     <SkillsH2>Designer</SkillsH2>
                     <SkillsP><SiAdobephotoshop /> Photoshop</SkillsP>
+                    <SkillsP><SiGimp /> GIMP</SkillsP>
                 </SkillsCard>
                 <SkillsCard>
                     <SkillsH2>Tools</SkillsH2>
@@ -29,6 +30,9 @@ const Skills = () => {
                 <SkillsCard>
                     <SkillsH2>Currently Learning</SkillsH2>
                     <SkillsP><SiAngular /> AngularJS</SkillsP>
+                    <SkillsP><SiPython /> Python</SkillsP>
+                    <SkillsP><SiArchlinux /> Linux</SkillsP>
+
                 </SkillsCard>
             </SkillsWrapper>
         </SkillsContainer>
