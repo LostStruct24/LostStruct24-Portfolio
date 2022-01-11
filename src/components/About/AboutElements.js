@@ -6,17 +6,9 @@ export const AboutContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 680px;
+    height: 1000px;
     position: relative;
     z-index: 1;
-
-    @media screen and (min-width:200px) and (max-width:800px) {
-        height: 750px;
-    }
-
-    @media screen and (min-width: 1500px) {
-        height: 900px;
-    }
 `;
 
 export const AboutBg = styled.div`
