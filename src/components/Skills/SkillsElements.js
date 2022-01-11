@@ -1,20 +1,12 @@
 import styled from 'styled-components';
 
 export const SkillsContainer = styled.div`
-    height: 600px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #364e59;
-    
-    @media screen and (min-width:200px) and (max-width:800px) {
-        height: 1100px;
-    }
-    
-    @media screen and (min-width: 1500px) {
-        height: 900px;
-    }
 `;
 
 export const SkillsWrapper = styled.div`
@@ -32,7 +24,6 @@ export const SkillsWrapper = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        grid-template-columns: 1fr;
         padding: 0 20px;
     }
 `;
