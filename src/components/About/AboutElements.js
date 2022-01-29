@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-    background: linear-gradient(to right, rgb(182, 226, 211) 40% ,rgb(165, 194, 212) 100%);
+    background: #0c0f16;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +9,10 @@ export const AboutContainer = styled.div`
     height: 1000px;
     position: relative;
     z-index: 1;
+    
+    @media screen and (max-height: 820px) {
+        height: 700px;
+    }
 `;
 
 export const AboutBg = styled.div`
@@ -34,18 +38,10 @@ export const AboutContent = styled.div`
 `;
 
 export const AboutH1 = styled.h1`
-    color: #3d5966;
+    color: #e1e5e8;
     font-size: 48px;
     text-shadow: 0 1px #5D7772;
     text-align: center;
-    
-    @media screen and (min-width: 1000px) {
-        font-size: 60px;
-    }
-
-    @media screen and (min-width:200px) and (max-width:800px) {
-        font-size: 27px;
-    }
 
     &:focus, &:hover {
         transform: rotate(3deg);
@@ -54,18 +50,10 @@ export const AboutH1 = styled.h1`
 
 export const AboutP = styled.p`
     margin-top: 24px;
-    color: #43616F;
+    color: #e1e5e8;
     font-size: 24px;
     text-align: center;
     max-width: 600px;
-
-    @media screen and (min-width: 1000px) {
-        font-size: 30px;
-    }
-
-    @media screen and (min-width:200px) and (max-width:800px) {
-        font-size: 24px;
-    }
 
     &:focus, &:hover {
         transform: rotate(2deg);

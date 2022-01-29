@@ -7,7 +7,7 @@ import Particles from 'react-particles-js';
 const particlesOptions = {
     particles: {
       number: {
-        value: 70,
+        value: 20,
         density: {
           enable: true,
           value_area: 700
@@ -31,7 +31,7 @@ const About = () => {
                     <AboutBtn href="//github.com/LostStruct24" 
                     target="_blank" 
                     aria-label="Github" 
-                    rel="noreferrer" ><SiGithub style={{color: '#637E90', height: '50px', width: '50px' }}/></AboutBtn>
+                    rel="noreferrer" ><SiGithub style={{color: '#e1e5e8', height: '50px', width: '50px' }}/></AboutBtn>
                 </AboutBtnWrapper>
             </AboutContent>
         </AboutContainer>

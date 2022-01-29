@@ -6,7 +6,7 @@ export const GithubContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #364e59;
+    background: #1e2834;
 
     @media screen and (min-width:200px) and (max-width:800px) {
         height: 500px;
@@ -22,7 +22,7 @@ export const GithubWrapper = styled.div`
 
 export const GithubH1 = styled.h1`
     font-size: 2.5rem;
-    color: #B6E2D3;
+    color: #e1e5e8;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {

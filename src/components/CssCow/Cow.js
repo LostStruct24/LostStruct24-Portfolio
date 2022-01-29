@@ -9,9 +9,9 @@ export const Cow = () => {
             <div className="head">
             <div className={cx("eye", "left")}></div>
             <div className={cx("eye", "right")}></div>
-            <div className="nose">
-                <div className="mouth"></div>
-            </div>
+                <div className="nose">
+                    <div className="mouth"></div>
+                </div>
             </div>
         </div>
     );

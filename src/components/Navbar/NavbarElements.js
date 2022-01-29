@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: ${({ scrollNav }) => (scrollNav ? '#5D7772' : '#43616F')};
+    background: ${({ scrollNav }) => (scrollNav ? '#1e2834' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: #E5F2F0;
+    color: #e1e5e8;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -58,7 +58,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #B6E2D3;
+        color: rgb(225, 229, 232);
     }
 `;
 
@@ -104,12 +104,12 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #637E90;
+    background: #92cde9;
     display: flex;
     align-items: center;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #E5F2F0;
+    color: #0c0f16;
     font-size: 16px;
     outline: none;
     border: none;
@@ -120,15 +120,15 @@ export const NavBtnLink = styled(LinkR)`
 
     &:hover {
         transition: all 0.2 ease-in-out;
-        background: #E5F2F0;
-        color: #637E90;
+        background: #859cab;
+        color: #fff;
     }
 `;
 
 
 //Projects Navbar //
 export const ProjectsNav = styled.nav`
-    background: #182d36;
+    background: #0c0f16;
     height: 80px;
     margin-top: 0;
     display: flex;
@@ -164,7 +164,7 @@ export const ProjectsNavLink = styled(LinkS)`
     color: #E5F2F0;
     text-decoration: none;
     display: flex;
-    margin-top: 5px;
+    margin-top: 15px;
     align-items: center;
     padding: 0 2rem;
     height: 72%;
@@ -172,7 +172,7 @@ export const ProjectsNavLink = styled(LinkS)`
     font-size: 18px;
 
     &.active {
-        border-bottom: 3px solid #EEEDE7;
+        border-bottom: 3px solid #859cab;
     }
 
 `;
@@ -189,6 +189,9 @@ export const ProjectsNavMenu = styled.ul`
     @media screen and (max-width: 768px) {
         display: none;
     }
+    
 `;
 
-
+export const ProjectsNavItem = styled.li`
+    height: 100px;
+`;

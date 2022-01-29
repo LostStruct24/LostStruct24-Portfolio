@@ -1,6 +1,6 @@
 import React from 'react';
 import { SkillsContainer, SkillsH1, SkillsH2, SkillsWrapper, SkillsCard, SkillsP } from './SkillsElements';
-import { SiAdobephotoshop, SiAngular, SiJavascript, SiHtml5, SiCss3, SiMysql, SiPhp, SiReact, SiGithub, SiGimp, SiArchlinux, SiPython, SiGit, SiVisualstudiocode, SiAtom, SiFirebase, SiVuedotjs } from 'react-icons/si';
+import { SiAdobephotoshop, SiAngular, SiKrita, SiFigma, SiJavascript, SiHtml5, SiCss3, SiMysql, SiPhp, SiReact, SiGithub, SiGimp, SiArchlinux, SiPython, SiGit, SiVisualstudiocode, SiAtom, SiFirebase, SiVuedotjs } from 'react-icons/si';
 
 const Skills = () => {
     return (
@@ -18,7 +18,9 @@ const Skills = () => {
                 <SkillsCard>
                     <SkillsH2>Designer</SkillsH2>
                     <SkillsP><SiAdobephotoshop /> Photoshop</SkillsP>
+                    <SkillsP><SiFigma /> Figma</SkillsP>
                     <SkillsP><SiGimp /> GIMP</SkillsP>
+                    <SkillsP><SiKrita /> Krita</SkillsP>
                 </SkillsCard>
                 <SkillsCard>
                     <SkillsH2>Tools</SkillsH2>
@@ -27,6 +29,7 @@ const Skills = () => {
                     <SkillsP><SiFirebase /> Firebase</SkillsP>
                     <SkillsP><SiVisualstudiocode /> Visual Studio Code</SkillsP>
                     <SkillsP><SiAtom /> Atom</SkillsP>
+                    <SkillsP><SiArchlinux /> Linux</SkillsP>
                 </SkillsCard>
                 <SkillsCard>
                     <SkillsH2>Currently Learning</SkillsH2>
@@ -34,8 +37,6 @@ const Skills = () => {
                     <SkillsP><SiPhp /> PHP</SkillsP>
                     <SkillsP><SiMysql /> MySQL</SkillsP>
                     <SkillsP><SiPython /> Python</SkillsP>
-                    <SkillsP><SiArchlinux /> Linux</SkillsP>
-
                 </SkillsCard>
             </SkillsWrapper>
         </SkillsContainer>

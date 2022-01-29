@@ -6,12 +6,19 @@ export const SkillsContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #364e59;
+    background: #e1e5e8;
 
-    @media screen and (max-width: 768px) {
-        height: 1300px;
+    @media screen and (max-height: 820px) {
+        height: 700px;
     }
 
+    @media screen and (max-width: 1000px) {
+        height: 800px;
+    }
+
+    @media screen and (max-width: 920px) {
+        height: 1300px;
+    }
 `;
 
 export const SkillsWrapper = styled.div`
@@ -21,7 +28,6 @@ export const SkillsWrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 20px;
-    margin-bottom: 80px;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
@@ -60,7 +66,7 @@ export const SkillsCard = styled.div`
 
 export const SkillsH1 = styled.h1`
     font-size: 2.5rem;
-    color: #B6E2D3;
+    color: #0c0f16;
     margin-bottom: 85px;
 
     @media screen and (min-width:200px) and (max-width:800px) {
@@ -75,12 +81,12 @@ export const SkillsH1 = styled.h1`
 export const SkillsH2 = styled.h2`
     font-size: 20px;
     margin-bottom: 20px;
-    color: #43616F;
+    color: #1e2834;
 `;
 
 export const SkillsP = styled.p`
     font-size: 18px;
     text-align: center;
-    color: #43616F;
+    color: #1e2834;
     margin-bottom: 8px;
 `;

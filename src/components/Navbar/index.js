@@ -25,7 +25,7 @@ const Navbar = ({ toggle }) => {
 
     return (
         <>
-            <IconContext.Provider value={{color: '#B6E2D3'}}>
+            <IconContext.Provider value={{color: '#e1e5e8'}}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
                         <NavLogo to="/LostStruct24-Portfolio" onClick={toggleHome}>LostStruct24</NavLogo>

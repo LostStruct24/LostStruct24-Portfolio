@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ProjectContainer = styled.div`
     display: flex;
     color: #EEEDE7;
-    background: ${({lightBg}) => (lightBg ? '#B6E2D3' : '#4b615d')};
+    background: ${({lightBg}) => (lightBg ? '#e1e5e8' : '#10181f')};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -56,7 +56,7 @@ export const Heading = styled.h1`
     font-size: 30px;
     line-height: 1.5;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? '#E5F2F0' : '#152D2E')};
+    color: ${({lightText}) => (lightText ? '#E5F2F0' : '#0c0f16')};
 `;
 
 export const Subtitle = styled.p`
@@ -64,7 +64,7 @@ export const Subtitle = styled.p`
     font-size: 18px;
     margin-bottom: 35px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#152D2E' : '#E5F2F0')};
+    color: ${({darkText}) => (darkText ? '#0c0f16' : '#E5F2F0')};
 `;
 
 export const BtnWrap = styled.div`
@@ -76,9 +76,9 @@ export const ProjectsButton = styled.a`
     display: flex;
     justify-content: flex-start;
     border-radius: 50px;
-    background: #647c90;
+    background: #99cde9;
     padding: 14px 48px;
-    color: #E5F2F0;
+    color: #0c0f16;
     text-decoration: none;
     font-size: 17px;
     cursor: pointer;
@@ -90,7 +90,7 @@ export const ProjectsButton = styled.a`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #859cab;
-        color: #152d2e;
+        color: #fff;
     }
 `;
 
@@ -116,7 +116,7 @@ export const Img = styled.img`
 `;
 
 export const TopLine = styled.a`
-    color: ${({lightText}) => (lightText ? '#B6E2D3' : '#152D2E')};
+    color: ${({lightText}) => (lightText ? '#92cde9' : '#0c0f16')};
     font-size: 17px;
     font-weight: 600;
     line-height: 18px;
